@@ -46,3 +46,6 @@ low_pricing = customer_trans.nsmallest(len(customer_trans)-thresh, "Product_Char
 
 low_price_std = pd_std(low_pricing)
 sns.distplot(low_pricing)
+
+
+##sun
