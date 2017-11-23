@@ -1,12 +1,5 @@
----
-title: "Chargeback Feature Exploration"
-author: "Omar And Luke"
-date: "21 November 2017"
-output: html_document
----
-
 rm(list = ls())
-library(lubridate)
+library(lubridate, warn.conflicts = FALSE)
 setwd("H:/SCC.460 Data Science Fundamentals/Project/THG-Jarvis")
 data <- read.csv("MAIN_chargeback_data.csv")
 
@@ -53,6 +46,29 @@ data$Season <- as.factor(data$Season)
 #' Creating a month column.
 data$Month <- month(data$Date.Logged, label = TRUE, abbr = TRUE)
 
-
+data$Weekday <- wday(data$Date.Logged)
+for (i in 1:length(data$Date.Logged)){
+  if (data$Weekday[i] == 1){
+    data$Weekday[i] <- "Monday"
+  }
+  if (data$Weekday[i] == 2){
+    data$Weekday[i] <- "Tuesday"
+  }
+  if (data$Weekday[i] == 3){
+    data$Weekday[i] <- "Wednesday"
+  }
+  if (data$Weekday[i] == 4){
+    data$Weekday[i] <- "Thursday"
+  }
+  if (data$Weekday[i] == 5){
+    data$Weekday[i] <- "Friday"
+  }
+  if (data$Weekday[i] == 6){
+    data$Weekday[i] <- "Saturday"
+  }
+  if (data$Weekday[i] == 7){
+    data$Weekday[i] <- "Sunday"
+  }
+}
 
 
