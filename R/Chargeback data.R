@@ -18,7 +18,6 @@ data$Internal.RC <- gsub("error", "Error", data$Internal.RC)
 data$Internal.RC <- as.factor(data$Internal.RC)
 
 #' Creating a seasons variable.
-data$Season <- NA
 for (i in 1:length(data$Date.Logged)){
   if (month(data$Date.Logged[i]) == 12 | 
       month(data$Date.Logged[i]) == 1 | 
@@ -46,29 +45,19 @@ data$Season <- as.factor(data$Season)
 #' Creating a month column.
 data$Month <- month(data$Date.Logged, label = TRUE, abbr = TRUE)
 
-data$Weekday <- wday(data$Date.Logged)
-for (i in 1:length(data$Date.Logged)){
-  if (data$Weekday[i] == 1){
-    data$Weekday[i] <- "Monday"
+#' Creating a day of the week column.
+data$Day <- wday(data$Date.Logged, label = TRUE, abbr = TRUE)
+
+#' Differentiating between weekday or weekend. 1 corresponds to weekday = TRUE.
+weekday <- c("Mon", "Tue", "Wed", "Thu", "Fri")
+for (i in 1:length(data$Day)){
+  if (any(weekday==data$Day[i]) == TRUE){
+    data$Weekday[i] = 1
   }
-  if (data$Weekday[i] == 2){
-    data$Weekday[i] <- "Tuesday"
-  }
-  if (data$Weekday[i] == 3){
-    data$Weekday[i] <- "Wednesday"
-  }
-  if (data$Weekday[i] == 4){
-    data$Weekday[i] <- "Thursday"
-  }
-  if (data$Weekday[i] == 5){
-    data$Weekday[i] <- "Friday"
-  }
-  if (data$Weekday[i] == 6){
-    data$Weekday[i] <- "Saturday"
-  }
-  if (data$Weekday[i] == 7){
-    data$Weekday[i] <- "Sunday"
+  else{
+    data$Weekday[i] = 0
   }
 }
+
 
 
