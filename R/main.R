@@ -66,4 +66,10 @@ cancelled_items <- trans %>%
 
 hist(as.numeric(trans$Order_Payment_Status_Key))
 
+bill_ship_match <- trans %>% 
+  mutate(status = ifelse(Postcode_Billing_Address != Postcode_Shipping_Address, "mismatch", "fine"))
 
+bill_ship_match %>% 
+  ggplot(aes(x = status)) +
+  geom_bar(stat = "count")
+table(bill_ship_match$status)
