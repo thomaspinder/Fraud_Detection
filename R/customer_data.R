@@ -25,18 +25,16 @@ c_code <-data.frame(Country_Code=unique(country_code$Country_Code),
 str(c_code)
 c_code$Country_Code=as.character(c_code$Country_Code)
 c_code$Country_Name=as.character(c_code$Country_Name)
-
 colnames(customer)[colnames(customer)=="Country"]<- "Country_Name"
-#customer$Country_Name= factor(customer$Country_Name)
 
-#customer_new <- c_code %>% 
+# Country_Code
+customer<-left_join(customer,c_code,by.x=customer$Country_Name,by.y=c_code$Country_Name) 
+
+#customer <- c_code %>% 
 # left_join(customer)
 
-customer<-left_join(customer,c_code,by.x=customer$Country_Name,by.y=c_code$Country_Name) # Country_Code
-#customer_new<-right_join(c_code,customer,by.x=customer$Country_Name,by.y=c_code$Country_Name) # Country_Code
-
 # create new variables
-# Joined_years
+# Joined_years - rough number,probably dynamic calcu is better(using Order_Date_Key)
 customer$Joined_years <- round((dmy("31/12/2016")-customer$Registered_Date)/365, 1)
 for (i in 1:nrow(customer)){
   if ((customer$Joined_years[i]>=0) & (customer$Joined_years[i]<1)){
