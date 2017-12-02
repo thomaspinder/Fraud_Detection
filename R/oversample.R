@@ -3,7 +3,8 @@ library(data.table)
 library(rpart)
 library(dplyr)
 
-setwd("Documents/university/MSc/fundamental/fraud/data/")
+#setwd("Documents/university/MSc/fundamental/fraud/data/")
+setwd("C:/Users/Luke/Documents/University/Lancaster/Data Fundamentals/thgfd/data")
 chargeback <- fread("MAIN_chargeback_data.csv")
 colnames(chargeback)[1] <- "Order_Number"
 trans <- fread("MAIN_transaction_data.csv")
