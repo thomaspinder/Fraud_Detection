@@ -1,6 +1,6 @@
 rm(list = ls())
 library(lubridate, warn.conflicts = FALSE)
-setwd("H:/SCC.460 Data Science Fundamentals/Project/THG-Jarvis")
+setwd("C:/Users/Luke/Documents/University/Lancaster/Data Fundamentals/thgfd/data")
 data <- read.csv("MAIN_chargeback_data.csv")
 
 #' Cleaning the data.
