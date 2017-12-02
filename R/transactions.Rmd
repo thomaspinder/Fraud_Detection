@@ -57,6 +57,7 @@ del_features <- data.frame(Name = as.character(unique(trans_del$Name)),
 
 del_join <- del_key %>% 
   left_join(del_features)
+del_join
 ```
 
 ### Who's a reliable customer?
@@ -92,7 +93,7 @@ payment_hists <- trans %>%
          status = ifelse(prop <= 0.25 & count > 2, "questionable",
                          ifelse(prop <= 0.25 & count <= 2, "insufficient",
                                 ifelse(prop > 0.25 & prop < 0.75, "adequate", "fine"))))
-
+payment_hists
 payment_hists %>% 
   ggplot(aes(x = status)) +
   geom_bar(stat = "count")
@@ -117,7 +118,7 @@ If the billing and shipping postcodes do not match, fraud is possible.
 
 ```{r}
 bill_ship_match <- trans %>% 
-  mutate(status = ifelse(Postcode_Billing_Address != Postcode_Shipping_Address, "mismatch", "fine"))
+  mutate(ship_status = ifelse(Postcode_Billing_Address != Postcode_Shipping_Address, "mismatch", "fine"))
 
 bill_ship_match %>% 
   ggplot(aes(x = status)) +
