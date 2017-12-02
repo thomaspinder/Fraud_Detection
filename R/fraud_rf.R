@@ -1,8 +1,9 @@
 library(data.table)
 library(dplyr)
 library(randomForest)
-setwd("/home/tpin3694/Documents/university/MSc/fundamental/THG-Jarvis/")
-chargeback <- fread("MAIN_transaction_data.csv")
+library(ggplot2)
+setwd("C:/Users/Luke/Documents/University/Lancaster/Data Fundamentals/thgfd/data")
+trans <- fread("MAIN_transaction_data.csv")
 fraud_trans <- fread("MAIN_chargeback_data.csv")
 customers <- read.csv("MAIN_customer_data.csv")
 
