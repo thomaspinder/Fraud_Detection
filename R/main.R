@@ -3,37 +3,42 @@ library(mice)
 library(dplyr)
 library(ggplot2)
 
-setwd("/home/tpin3694/Documents/university/MSc/fundamental/THG-Jarvis")
+setwd("~/Desktop/DataScienceFundamentals_Project/thgfd/data")
 trans <- fread("MAIN_transaction_data.csv")
 
 # 
 str(trans)
 unique(trans$Empty1)
 
-
 del_key <- fread("delivery_option_lookup.csv")
 colnames(del_key) <- c("Delivery_Option_Type_Key", "Name")
 
+trans_del <- trans %>% 
+  left_join(del_key) %>% 
+  group_by(Name) %>% 
+  summarise(n = n()) 
+
+trans <- trans %>% 
+  left_join(del_key)
+
 str(del_key)
-del_features <- data.frame(Name = as.character(unique(trans_del$Name)), 
+del_features <- data.frame(Name = as.character(unique(trans$Name)), 
                            destination = c(rep("int", 3), rep("dom", 6)),
                            priority = c("priority", rep("slow", 2), rep("priority", 2), rep("slow", 4)),
                            occupation = c(rep("unknown", 5), "working", "unknown", "working", "unknown"))
 
-del_join <- del_key %>% 
-  left_join(del_features)
-
+trans <- trans %>% 
+  left_join(del_features, by = "Name")
 
 trans_del <- trans %>% 
-  left_join(del_join) %>% 
   group_by(Name) %>% 
-  summarise(n = n()) 
+  summarise(n = n())
 
 trans_del %>% 
   ggplot(aes(x = Name, y = n)) +
   geom_col() +
   theme(axis.text.x = element_text(angle = 60, hjust = 1))
-
+head(trans)
 # Reliable customers
 customers <- trans %>% 
   group_by(Account_Key) %>% 
