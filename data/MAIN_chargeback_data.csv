@@ -1,0 +1,767 @@
+Order.No.,Date.Logged,Released_by,Internal.RC,Defence.Status,GBP.Amount
+67879434,07/01/2016,Gatekeeper,Fraud,None,£294.60
+67138279,15/03/2016,Bypass,Fraud,Lost,£124.94
+67100223,16/03/2016,Gatekeeper,Ethoca - refunded,Outstanding,£125.89
+67236325,16/03/2016,Gatekeeper,Fraud,None,£129.94
+67237354,16/03/2016,Gatekeeper,1st party fraud,Outstanding,£129.94
+67337452,16/03/2016,Investigator,Fraud,Outstanding,£96.93
+67260085,18/03/2016,Investigator,LIP - Untracked,Outstanding,£111.73
+67161202,18/03/2016,Gatekeeper,Fraud,Won,£48.94
+67524068,18/03/2016,Gatekeeper,Fraud,Lost,£106.92
+67738478,18/03/2016,Gatekeeper,Fraud,Lost,£84.93
+67542049,22/03/2016,Gatekeeper,Ethoca - refunded,Won,£159.16
+67137762,22/03/2016,Gatekeeper,Fraud,Lost,£124.94
+67154157,23/03/2016,Gatekeeper,Fraud,Lost,£134.94
+67418720,24/03/2016,Investigator,Fraud,None,£44.00
+67543464,29/03/2016,Investigator,Fraud,None,£58.60
+67529625,30/03/2016,Investigator,Fraud,Outstanding,£51.15
+67616667,30/03/2016,Investigator,Fraud,Outstanding,£47.95
+67290868,30/03/2016,Investigator,Customer error,Won,£28.34
+68064701,01/04/2016,Gatekeeper,Fraud,None,£98.93
+68106039,01/04/2016,Gatekeeper,Fraud,None,£84.93
+67103754,05/04/2016,Gatekeeper,Fraud,None,£41.94
+67750557,06/04/2016,Gatekeeper,Fraud - Refunded,Won,£81.99
+67465511,06/04/2016,Gatekeeper,Fraud,None,£294.60
+67746508,06/04/2016,Gatekeeper,Fraud,None,£50.70
+67525263,07/04/2016,Gatekeeper,Fraud,None,£98.93
+67193710,08/04/2016,Bypass,Order returned/ cancelled – not refunded,None,£10.00
+67436361,08/04/2016,Gatekeeper,LIP - Untracked,Lost,£144.02
+67295644,08/04/2016,Bypass,Order issue - not refunded or replaced,None,£19.99
+67139979,08/04/2016,Bypass,Fraud,None,£111.93
+67337128,11/04/2016,Gatekeeper,Fraud,None,£104.92
+67919595,11/04/2016,Investigator,Customer error,Lost,£47.10
+68628281,11/04/2016,Gatekeeper,Fraud,None,£16.79
+68366609,11/04/2016,Investigator,Fraud,None,£150.51
+68090357,12/04/2016,Gatekeeper,Fraud,None,£19.55
+68035854,12/04/2016,Gatekeeper,Fraud,None,£19.55
+67755441,12/04/2016,Gatekeeper,Fraud,None,£130.00
+67139086,12/04/2016,Gatekeeper,Fraud,None,£114.91
+67242852,12/04/2016,Gatekeeper,Fraud,None,£79.95
+67527127,12/04/2016,Investigator,Fraud,None,£21.98
+67495965,12/04/2016,Investigator,Fraud,None,£5.98
+68307883,12/04/2016,Gatekeeper,Fraud,None,£84.93
+68511490,12/04/2016,Gatekeeper,Fraud,None,£98.93
+67738231,13/04/2016,Bypass,1st party fraud,Outstanding,£77.89
+68770316,13/04/2016,Investigator,Fraud,None,£83.30
+68177088,14/04/2016,Gatekeeper,1st party fraud,Won,£22.98
+67138099,15/04/2016,Gatekeeper,Fraud,None,£124.94
+67191363,15/04/2016,Gatekeeper,Fraud,Lost,£129.94
+68023343,15/04/2016,Investigator,1st Party Fraud,None,£94.54
+68537477,15/04/2016,Investigator,Fraud - Refunded,Won,£5.98
+68571926,15/04/2016,Gatekeeper,Fraud,None,£51.94
+67723714,15/04/2016,Investigator,Fraud,None,£156.22
+67193341,16/04/2016,Gatekeeper,Fraud,None,£129.94
+67647952,18/04/2016,Investigator,Customer Error,None,£38.46
+68106716,18/04/2016,Gatekeeper,Fraud,Lost,£84.93
+68450199,18/04/2016,Gatekeeper,1st party fraud,Lost,£98.93
+68470453,18/04/2016,Investigator,Customer error,None,£51.59
+68839621,18/04/2016,Gatekeeper,Fraud,None,£74.93
+67279157,19/04/2016,Gatekeeper,Customer error,Won,£58.40
+67136792,19/04/2016,Gatekeeper,1st party fraud,Lost,£124.94
+68308133,19/04/2016,Gatekeeper,1st party fraud,Lost,£84.93
+68846172,19/04/2016,Investigator,Fraud,None,£324.94
+68839339,19/04/2016,Gatekeeper,Fraud,None,£74.93
+67370121,19/04/2016,Investigator,Fraud - Refunded,None,£307.57
+67114732,20/04/2016,Gatekeeper,Order returned/ cancelled – not refunded,None,£101.94
+67234854,20/04/2016,Bypass,Subscription,Lost,£7.99
+67781995,20/04/2016,Bypass,Subscription,None,£19.99
+67140888,20/04/2016,Gatekeeper,Fraud,None,£74.92
+67237071,20/04/2016,Gatekeeper,Fraud,None,£129.94
+68884274,20/04/2016,Gatekeeper,Fraud,None,£74.93
+68884029,20/04/2016,Gatekeeper,Fraud,None,£74.93
+68478750,20/04/2016,Investigator,Fraud,None,£28.65
+67124181,21/04/2016,Bypass,Subscription,Lost,£19.99
+67652999,22/04/2016,Bypass,LIP - Untracked,None,£9.89
+67885361,22/04/2016,Gatekeeper,Fraud,None,£84.93
+68802388,22/04/2016,Gatekeeper,1st party fraud,Outstanding,£74.93
+68154454,23/04/2016,Investigator,Fraud - Refunded,Lost,£84.93
+67239336,24/04/2016,Bypass,1st party fraud,Won,£16.99
+67232147,25/04/2016,Investigator,Fraud,None,£33.94
+67238092,25/04/2016,Investigator,Fraud,None,£129.92
+68058717,25/04/2016,Gatekeeper,Fraud,None,£84.93
+68111109,25/04/2016,Investigator,Fraud,None,£84.93
+68138318,25/04/2016,Investigator,Fraud,None,£49.94
+69080527,25/04/2016,Gatekeeper,Fraud,None,£84.93
+68120464,26/04/2016,Investigator,Fraud - Refunded,Outstanding,£84.93
+67236216,27/04/2016,Bypass,Fraud,None,£129.94
+67337604,27/04/2016,Investigator,Fraud,None,£96.93
+68137742,27/04/2016,Gatekeeper,Fraud,None,£89.94
+69030700,27/04/2016,Investigator,Fraud,None,£84.93
+69129469,27/04/2016,Gatekeeper,Fraud,None,£44.94
+67655516,28/04/2016,Bypass,Fraud,None,£18.99
+69080179,28/04/2016,Gatekeeper,Fraud,Lost,£175.10
+67601826,28/04/2016,Gatekeeper,Fraud,None,£10.98
+68583792,29/04/2016,Investigator,Fraud,None,£70.99
+67762499,29/04/2016,Investigator,Fraud,None,£124.92
+68958563,29/04/2016,Bypass,Order returned/ cancelled – not refunded,None,£10.54
+69160377,03/05/2016,Gatekeeper,1st party fraud,Won,£113.94
+69161153,04/05/2016,Gatekeeper,1st party fraud,Won,£19.99
+68063312,04/05/2016,Gatekeeper,Fraud,Lost,£98.93
+68106475,04/05/2016,Gatekeeper,Fraud,Lost,£84.93
+67335455,05/05/2016,Gatekeeper,1st party fraud,Won,£129.94
+67732001,05/05/2016,Gatekeeper,1st party fraud,Lost,£84.93
+67818033,05/05/2016,Investigator,1st party fraud,Lost,£124.92
+68855023,05/05/2016,Investigator,Fraud,None,£70.98
+69746608,06/05/2016,Gatekeeper,Fraud,None,£82.00
+69564430,06/05/2016,Bypass,Fraud,None,£20.50
+67648192,06/05/2016,Investigator,Fraud,None,£31.98
+67841724,06/05/2016,Investigator,Fraud,None,£46.97
+67737030,06/05/2016,Gatekeeper,Fraud,Lost,£84.93
+68307243,06/05/2016,Gatekeeper,Fraud,Lost,£84.93
+68309475,06/05/2016,Gatekeeper,Fraud,Lost,£77.92
+69079586,06/05/2016,Gatekeeper,Fraud,None,£84.93
+69273297,06/05/2016,Investigator,Fraud - Refunded,Won,£294.94
+67735008,07/05/2016,Gatekeeper,Fraud,Outstanding,£84.93
+68569359,07/05/2016,Gatekeeper,Fraud,Outstanding,£94.93
+67561080,09/05/2016,Gatekeeper,Fraud,None,£144.95
+67626078,09/05/2016,Bypass,Fraud,None,£24.99
+69411840,09/05/2016,Gatekeeper,Fraud - Refunded,Won,£85.73
+67715825,09/05/2016,Investigator,Fraud,None,£304.94
+69079438,09/05/2016,Gatekeeper,Fraud,None,£84.93
+69131552,09/05/2016,Gatekeeper,Fraud,None,£144.94
+69131854,09/05/2016,Gatekeeper,Fraud,None,£104.94
+68065476,10/05/2016,Gatekeeper,Fraud,None,£77.90
+68427828,11/05/2016,Gatekeeper,Fraud,None,£31.99
+68515705,11/05/2016,Gatekeeper,Fraud,None,£127.50
+67621766,11/05/2016,Gatekeeper,LIP - Untracked,Won,£36.68
+67737408,11/05/2016,Gatekeeper,Fraud,None,£67.92
+68210997,11/05/2016,Investigator,Fraud - Refunded,Won,£25.97
+68605652,11/05/2016,Gatekeeper,Fraud,None,£50.00
+68790844,11/05/2016,Investigator,1st party fraud,None,£118.92
+69335486,11/05/2016,Gatekeeper,Fraud,None,£35.98
+68842700,12/05/2016,Gatekeeper,Fraud,None,£176.99
+68004540,12/05/2016,Bypass,Customer error,None,£31.59
+67502633,13/05/2016,Gatekeeper,1st party fraud,Won,£43.94
+68524365,13/05/2016,Investigator,Fraud,None,£78.98
+67485369,13/05/2016,Investigator,Fraud,None,£32.94
+68060829,13/05/2016,Gatekeeper,Fraud,None,£84.93
+68160129,13/05/2016,Investigator,Fraud,None,£84.93
+67148209,16/05/2016,Bypass,Fraud,None,£38.61
+69556685,16/05/2016,Gatekeeper,Fraud,None,£70.99
+70191228,16/05/2016,Bypass,1st party fraud,None,£13.41
+70192792,16/05/2016,Bypass,1st party fraud,None,£10.29
+67139651,16/05/2016,Gatekeeper,Fraud,None,£154.94
+67381821,16/05/2016,Investigator,Fraud,None,£15.98
+67440713,16/05/2016,Investigator,LIP - Untracked,None,£40.98
+67541153,16/05/2016,Investigator,Fraud,None,£8.98
+67495700,16/05/2016,Investigator,Fraud,None,£32.98
+67337528,16/05/2016,Investigator,Card re-hit,Lost,£94.93
+68308016,16/05/2016,Gatekeeper,Fraud,None,£84.93
+68450530,16/05/2016,Gatekeeper,Fraud,None,£98.93
+68516647,16/05/2016,Gatekeeper,Fraud,None,£64.94
+67205137,17/05/2016,Bypass,Fraud,None,£20.82
+67672836,17/05/2016,Bypass,Fraud,None,£19.15
+69166907,17/05/2016,Bypass,Subscription cancelled,Lost,£19.99
+69626634,17/05/2016,Investigator,Fraud,Lost,£395.94
+68053960,17/05/2016,Investigator,Fraud,None,£46.95
+67314892,17/05/2016,Investigator,Fraud,None,£47.96
+67207822,17/05/2016,Investigator,Fraud,None,£19.98
+67336500,17/05/2016,Gatekeeper,1st party fraud,Lost,£56.99
+67569978,17/05/2016,Gatekeeper,Fraud,Lost,£98.93
+67672354,17/05/2016,Gatekeeper,1st party fraud,Lost,£98.93
+67700295,17/05/2016,Gatekeeper,1st party fraud,Outstanding,£52.98
+68157612,17/05/2016,Gatekeeper,Fraud,None,£84.93
+68438765,17/05/2016,Gatekeeper,Fraud,None,£94.93
+68498058,17/05/2016,Gatekeeper,Fraud,None,£94.93
+68562530,17/05/2016,Gatekeeper,Fraud,None,£94.93
+68622302,17/05/2016,Investigator,Fraud,None,£165.91
+68718471,17/05/2016,Gatekeeper,Fraud,None,£58.47
+68828000,17/05/2016,Gatekeeper,Fraud,None,£124.92
+68840536,17/05/2016,Gatekeeper,Fraud,None,£74.93
+68890476,17/05/2016,Gatekeeper,Fraud,None,£74.93
+68890844,17/05/2016,Gatekeeper,Fraud,None,£74.93
+68928891,17/05/2016,Gatekeeper,Fraud,None,£172.91
+69129579,17/05/2016,Gatekeeper,Fraud,None,£84.93
+69254136,17/05/2016,Investigator,Customer error,Outstanding,£10.98
+69416106,17/05/2016,Gatekeeper,Fraud,None,£94.93
+67700845,18/05/2016,Bypass,LIP - Untracked,None,£38.99
+69466039,18/05/2016,Gatekeeper,Fraud,None,£133.00
+69767371,18/05/2016,Investigator,Fraud,Lost,£271.00
+69559547,18/05/2016,Gatekeeper,Fraud,None,£152.00
+68843302,18/05/2016,Gatekeeper,LIP - Untracked,None,£125.00
+67967509,18/05/2016,Bypass,Subscription,Lost,£19.99
+67848954,18/05/2016,Bypass,Subscription,None,£19.99
+69577539,18/05/2016,Investigator,Fraud - Refunded,Won,£394.94
+67732435,18/05/2016,Gatekeeper,Fraud,None,£84.93
+67759806,18/05/2016,Gatekeeper,Fraud,None,£164.91
+67864428,18/05/2016,Gatekeeper,Fraud,None,£124.92
+68107927,18/05/2016,Gatekeeper,Fraud - Refunded,Outstanding,£84.93
+68308887,18/05/2016,Gatekeeper,Fraud,None,£84.93
+68647494,18/05/2016,Gatekeeper,Fraud,None,£10.98
+68651515,18/05/2016,Gatekeeper,Subscription cancelled,None,£19.99
+68875529,18/05/2016,Investigator,Fraud,Lost,£183.89
+69080996,18/05/2016,Gatekeeper,Fraud,None,£84.93
+69251408,18/05/2016,Investigator,Fraud,None,£100.97
+69419495,18/05/2016,Gatekeeper,Fraud,None,£94.93
+69416381,18/05/2016,Gatekeeper,Fraud,None,£94.93
+69097404,19/05/2016,Gatekeeper,Fraud,None,£18.99
+69014082,19/05/2016,Bypass,Subscription cancelled,Outstanding,£19.99
+67640476,19/05/2016,Bypass,Subscription cancelled,None,£19.99
+67135301,19/05/2016,Gatekeeper,Fraud,None,£129.94
+67189352,19/05/2016,Gatekeeper,Fraud,None,£129.94
+68222206,19/05/2016,Gatekeeper,Subscription cancelled,None,£9.99
+67745906,19/05/2016,Investigator,Fraud,None,£20.98
+68306879,19/05/2016,Gatekeeper,Fraud,None,£84.93
+68387390,19/05/2016,Gatekeeper,Fraud,None,£10.99
+68446545,19/05/2016,Gatekeeper,Fraud,None,£15.98
+68453825,19/05/2016,Gatekeeper,Fraud,None,£59.94
+68507165,19/05/2016,Gatekeeper,Fraud,None,£94.93
+68566490,19/05/2016,Gatekeeper,Fraud,None,£139.92
+68560327,19/05/2016,Investigator,1st party fraud,None,£164.41
+68571339,19/05/2016,Gatekeeper,Fraud,None,£98.93
+68844178,19/05/2016,Gatekeeper,Fraud,None,£49.92
+68952571,20/05/2016,Bypass,Fraud,None,£28.00
+69134292,20/05/2016,Bypass,Fraud,None,£36.00
+69415804,20/05/2016,Gatekeeper,Fraud,None,£148.50
+69652199,20/05/2016,Bypass,Fraud,None,£35.26
+67990811,20/05/2016,Gatekeeper,Subscription cancelled,None,£103.94
+69059114,20/05/2016,Bypass,Subscription cancelled,None,£19.99
+68058040,20/05/2016,Gatekeeper,Fraud,Outstanding,£84.93
+68106716,20/05/2016,Gatekeeper,Fraud,Outstanding,£84.93
+68497518,20/05/2016,Investigator,Fraud,None,£94.93
+67713199,20/05/2016,Investigator,Fraud,None,£144.41
+68506359,20/05/2016,Investigator,Fraud - Refunded,None,£168.67
+68506359,20/05/2016,Investigator,Fraud - Refunded,Won,£278.52
+68860618,20/05/2016,Gatekeeper,Fraud,None,£38.47
+67660704,22/05/2016,Bypass,Fraud,None,£34.78
+67660733,22/05/2016,Bypass,Fraud,None,£31.77
+67660722,22/05/2016,Bypass,Fraud,None,£31.77
+69794302,22/05/2016,Investigator,Fraud,None,£214.00
+69917076,22/05/2016,Bypass,Fraud,None,£15.99
+68320142,22/05/2016,Gatekeeper,1st party fraud,Lost,£212.00
+69627679,22/05/2016,Investigator,Fraud,Lost,£299.94
+69800540,22/05/2016,Investigator,Fraud,Lost,£299.94
+69745994,22/05/2016,Investigator,Fraud,Lost,£299.94
+67571993,22/05/2016,Investigator,Fraud,None,£74.77
+67320342,23/05/2016,Bypass,Fraud,None,£19.99
+68599672,23/05/2016,Gatekeeper,Subscription,None,£19.99
+67530668,23/05/2016,Gatekeeper,Order issue - refunded or replaced,Outstanding,£41.96
+69064852,23/05/2016,Gatekeeper,Fraud,None,£84.93
+69238221,23/05/2016,Gatekeeper,Fraud,None,£84.93
+69286710,23/05/2016,Investigator,Fraud,None,£184.91
+67158152,24/05/2016,Gatekeeper,Fraud,None,£48.99
+67184796,24/05/2016,Gatekeeper,Fraud,None,£46.99
+67206437,24/05/2016,Gatekeeper,Fraud,None,£46.99
+67282495,24/05/2016,Gatekeeper,Fraud,None,£124.99
+67495905,24/05/2016,Gatekeeper,Fraud,None,£40.99
+67542742,24/05/2016,Gatekeeper,Fraud,None,£127.00
+67543043,24/05/2016,Gatekeeper,Fraud,None,£46.99
+67654193,24/05/2016,Gatekeeper,Fraud,None,£48.99
+67646724,24/05/2016,Gatekeeper,Fraud,None,£65.99
+67626456,24/05/2016,Gatekeeper,Fraud,None,£65.99
+68958729,24/05/2016,Gatekeeper,Fraud,None,£63.99
+67192203,24/05/2016,Bypass,Fraud,None,£34.00
+67391018,24/05/2016,Gatekeeper,Fraud,None,£132.88
+69018433,24/05/2016,Bypass,Fraud,None,£32.99
+70577732,24/05/2016,Gatekeeper,Fraud,None,£89.95
+69771027,24/05/2016,Gatekeeper,Fraud - Refunded,None,£18.97
+68846055,24/05/2016,Investigator,Fraud,None,£404.92
+69060401,24/05/2016,Investigator,Fraud,None,£81.91
+68909775,24/05/2016,Investigator,Fraud,None,£105.91
+68966935,24/05/2016,Investigator,Fraud,Lost,£354.94
+69118755,24/05/2016,Gatekeeper,Fraud,None,£124.92
+69251802,24/05/2016,Gatekeeper,Fraud,None,£45.97
+69334929,24/05/2016,Gatekeeper,1st party fraud,Lost,£129.94
+70186431,24/05/2016,Investigator,Fraud,None,£36.94
+70227007,24/05/2016,Investigator,Fraud,None,£39.94
+69680051,25/05/2016,Investigator,Fraud - Refunded,Won,£221.63
+67336124,25/05/2016,Gatekeeper,Fraud,None,£31.98
+67917292,25/05/2016,Investigator,Fraud,None,£15.98
+67736271,25/05/2016,Gatekeeper,1st party fraud,None,£84.93
+68447669,25/05/2016,Gatekeeper,Fraud - Refunded,Won,£94.93
+68627015,25/05/2016,Investigator,Fraud,None,£25.00
+68846033,25/05/2016,Gatekeeper,Fraud,None,£37.98
+67655050,26/05/2016,Bypass,Fraud,None,£22.94
+67939125,26/05/2016,Gatekeeper,LIP - Untracked,None,£83.18
+69098326,26/05/2016,Bypass,Fraud,None,£32.99
+68954002,26/05/2016,Gatekeeper,Customer error,Won,£14.98
+67735862,26/05/2016,Gatekeeper,Subscription cancelled,None,£19.99
+67894891,26/05/2016,Investigator,Fraud,None,£19.99
+67817933,26/05/2016,Gatekeeper,Fraud,None,£164.91
+68307133,26/05/2016,Investigator,Fraud,None,£84.93
+68534193,26/05/2016,Gatekeeper,Fraud,None,£19.99
+68662344,26/05/2016,Gatekeeper,Subscription cancelled,Won,£19.99
+68839007,26/05/2016,Gatekeeper,Fraud,None,£74.93
+69318286,26/05/2016,Investigator,Fraud,None,£184.91
+69765725,26/05/2016,Gatekeeper,Fraud,None,£80.93
+70496319,26/05/2016,Gatekeeper,Fraud,Outstanding,£84.93
+69203723,26/05/2016,Investigator,Fraud,None,£29.20
+69309360,26/05/2016,Investigator,Fraud,None,£32.21
+69831566,26/05/2016,Investigator,Fraud,None,£72.08
+69485953,26/05/2016,Investigator,Fraud,None,£58.41
+70084016,26/05/2016,Investigator,Fraud,None,£41.57
+70135549,26/05/2016,Investigator,Fraud,None,£69.65
+69371548,26/05/2016,Investigator,Fraud,None,£58.42
+69994295,26/05/2016,Investigator,Fraud,None,£72.07
+69154755,26/05/2016,Investigator,Fraud,None,£15.93
+69970211,26/05/2016,Investigator,Fraud,None,£58.41
+69535826,26/05/2016,Investigator,Fraud,None,£15.74
+70218911,26/05/2016,Investigator,Fraud,None,£68.49
+67568366,27/05/2016,Gatekeeper,Fraud,None,£286.56
+69274844,27/05/2016,Bypass,Fraud,None,£32.99
+67995837,27/05/2016,Gatekeeper,Order issue - not refunded or replaced,Won,£70.67
+70601935,27/05/2016,Bypass,Subscription,Outstanding,£19.99
+68453263,27/05/2016,Gatekeeper,1st party fraud,Outstanding,£74.93
+68891561,27/05/2016,Gatekeeper,Order returned/ cancelled – not refunded,None,£9.99
+67601267,31/05/2016,Gatekeeper,Fraud,None,£16.98
+68799837,31/05/2016,Gatekeeper,Fraud,None,£74.93
+70427977,31/05/2016,Gatekeeper,Fraud,None,£38.94
+67626224,01/06/2016,Bypass,1st party fraud,None,£24.99
+70629296,01/06/2016,Gatekeeper,Fraud,None,£59.99
+70131735,01/06/2016,Bypass,Fraud,None,£24.00
+67525913,01/06/2016,Gatekeeper,Fraud,Lost,£98.93
+67897497,01/06/2016,Gatekeeper,Subscription,None,£9.99
+68569983,01/06/2016,Gatekeeper,Fraud,None,£94.93
+68748800,01/06/2016,Gatekeeper,Fraud,None,£78.93
+69999171,01/06/2016,Bypass,Subscription,Lost,£19.99
+69999171,01/06/2016,Bypass,Subscription,Lost,£19.99
+69999171,01/06/2016,Bypass,Subscription,Lost,£19.99
+67934330,01/06/2016,Investigator,Fraud,None,£119.75
+70665481,01/06/2016,Investigator,Fraud,None,£38.20
+67957232,02/06/2016,Gatekeeper,Subscription cancelled,None,£19.99
+68088158,02/06/2016,Investigator,Fraud,None,£140.98
+68513427,02/06/2016,Gatekeeper,Fraud,None,£98.93
+69566747,02/06/2016,Investigator,Fraud,None,£49.94
+69746734,02/06/2016,Investigator,Fraud,None,£43.94
+69872006,02/06/2016,Gatekeeper,Fraud - Refunded,None,£80.93
+67153736,03/06/2016,Bypass,Subscription,None,£19.99
+67189358,03/06/2016,Investigator,LIP - Untracked,None,£15.66
+68094766,03/06/2016,Investigator,Fraud,None,£308.92
+68040906,03/06/2016,Investigator,Fraud,None,£349.93
+69082437,03/06/2016,Gatekeeper,Fraud,None,£84.93
+69079140,03/06/2016,Gatekeeper,Fraud,None,£84.93
+70171207,03/06/2016,Investigator,Fraud,None,£41.94
+70309665,03/06/2016,Investigator,Fraud,None,£30.94
+67626175,04/06/2016,Bypass,Fraud,None,£24.99
+67122200,04/06/2016,Bypass,Subscription,Lost,£19.99
+67122200,04/06/2016,Bypass,Subscription,Outstanding,£19.99
+69554702,05/06/2016,Bypass,Fraud,None,£35.26
+67438747,05/06/2016,Gatekeeper,Customer error,Outstanding,£43.98
+70352257,06/06/2016,Investigator,1st party fraud,Outstanding,£258.44
+70803958,06/06/2016,Gatekeeper,Fraud,None,£46.99
+70280847,06/06/2016,Investigator,Fraud - Refunded,Won,£394.94
+68103330,06/06/2016,Investigator,Fraud,None,£20.98
+67997615,06/06/2016,Investigator,Fraud,None,£7.98
+68276223,06/06/2016,Gatekeeper,Fraud,None,£44.94
+68573254,06/06/2016,Investigator,Fraud,None,£10.98
+68812747,06/06/2016,Investigator,LIP - Untracked,None,£43.98
+68861276,06/06/2016,Gatekeeper,Fraud - Refunded,Won,£13.98
+68942277,06/06/2016,Gatekeeper,Fraud - Refunded,None,£35.92
+68918738,06/06/2016,Gatekeeper,1st party fraud,Lost,£37.94
+68966453,06/06/2016,Investigator,1st party fraud,Lost,£21.94
+68942496,06/06/2016,Investigator,1st party fraud,Lost,£26.94
+68952677,06/06/2016,Gatekeeper,Fraud,None,£44.96
+69078165,06/06/2016,Gatekeeper,Fraud,None,£84.93
+69201301,06/06/2016,Gatekeeper,Fraud,None,£40.98
+69250154,06/06/2016,Investigator,Fraud,None,£214.90
+69418282,06/06/2016,Gatekeeper,Fraud,None,£94.93
+69419863,06/06/2016,Gatekeeper,Fraud,None,£94.93
+70001544,06/06/2016,Gatekeeper,Order issue - not refunded or replaced,Lost,£95.94
+70222625,06/06/2016,Gatekeeper,1st party fraud,None,£13.98
+70911788,06/06/2016,Gatekeeper,Fraud,None,£299.94
+71147582,06/06/2016,Gatekeeper,Fraud - Refunded,Outstanding,£164.91
+71107347,06/06/2016,Gatekeeper,Fraud,None,£84.93
+67418720,07/06/2016,Investigator,Fraud,None,£44.00
+67616667,07/06/2016,Investigator,Fraud,None,£47.95
+69738877,07/06/2016,Investigator,Fraud,None,£56.99
+70868777,07/06/2016,Gatekeeper,Fraud - Refunded,Won,£76.99
+70778270,07/06/2016,Gatekeeper,Fraud,None,£46.99
+70868865,07/06/2016,Gatekeeper,Fraud - Refunded,Won,£48.99
+67099536,07/06/2016,Bypass,Fraud,None,£104.99
+67099486,07/06/2016,Bypass,Fraud,Won,£50.99
+67903916,07/06/2016,Gatekeeper,Order returned/ cancelled – not refunded,Lost,£52.80
+67903916,07/06/2016,Gatekeeper,Order returned/ cancelled – not refunded,None,£52.80
+69023328,07/06/2016,Bypass,Fraud,None,£19.45
+70590465,07/06/2016,Gatekeeper,Fraud,None,£93.95
+70945671,07/06/2016,Gatekeeper,Fraud,None,£41.97
+67320342,07/06/2016,Bypass,Fraud,None,£17.99
+67300881,07/06/2016,Investigator,Fraud,None,£25.98
+68801280,07/06/2016,Gatekeeper,Fraud,None,£74.93
+69077820,07/06/2016,Gatekeeper,Fraud,None,£84.93
+69129731,07/06/2016,Gatekeeper,Fraud,None,£84.93
+69573598,07/06/2016,Investigator,Fraud,None,£49.94
+69750472,07/06/2016,Investigator,Fraud,None,£41.94
+69856420,07/06/2016,Investigator,Fraud,None,£39.94
+70157927,07/06/2016,Investigator,Customer Error,Lost,£23.55
+70575152,07/06/2016,Investigator,Fraud,None,£74.93
+70984909,07/06/2016,Gatekeeper,Fraud,None,£145.94
+68124920,07/06/2016,Investigator,Fraud,None,£47.18
+69544900,07/06/2016,Investigator,Fraud,None,£119.59
+68445824,07/06/2016,Bypass,Fraud,None,£18.34
+70664198,07/06/2016,Investigator,Fraud,Outstanding,£239.20
+69934920,08/06/2016,Investigator,Fraud,None,£80.00
+70335721,08/06/2016,Investigator,Fraud,None,£59.99
+70913453,08/06/2016,Investigator,Fraud - Refunded,Won,£103.99
+69785058,08/06/2016,Bypass,Fraud,None,£16.06
+70799182,08/06/2016,Gatekeeper,Fraud,None,£129.80
+70862694,08/06/2016,Gatekeeper,Fraud,None,£107.59
+68289628,08/06/2016,Bypass,Subscription,None,£19.99
+67239955,08/06/2016,Bypass,Order returned/ cancelled – not refunded,None,£15.99
+68306369,08/06/2016,Investigator,Fraud,None,£84.93
+68648895,08/06/2016,Gatekeeper,Fraud,None,£49.94
+68700364,08/06/2016,Gatekeeper,Customer Error,None,£17.92
+68883809,08/06/2016,Gatekeeper,Fraud,None,£74.93
+69064053,08/06/2016,Gatekeeper,Fraud,None,£84.93
+69078925,08/06/2016,Gatekeeper,Fraud,None,£84.93
+69520359,08/06/2016,Investigator,1st party fraud,Lost,£114.91
+69685843,08/06/2016,Investigator,Customer Error,None,£22.41
+70824522,08/06/2016,Gatekeeper,Fraud,None,£144.91
+70781687,08/06/2016,Gatekeeper,Fraud,None,£74.93
+69385209,08/06/2016,Investigator,Fraud,None,£71.87
+69563274,09/06/2016,Investigator,Customer error,Outstanding,£64.80
+70845734,09/06/2016,Gatekeeper,Fraud,None,£559.05
+69311438,09/06/2016,Bypass,Subscription cancelled,None,£19.99
+69693928,09/06/2016,Bypass,Subscription cancelled,None,£19.99
+68533823,09/06/2016,Gatekeeper,Customer error,None,£23.05
+69064002,09/06/2016,Gatekeeper,Subscription cancelled,None,£19.99
+67276901,09/06/2016,Investigator,Fraud,None,£48.94
+68199778,09/06/2016,Investigator,Fraud,None,£36.98
+68509539,09/06/2016,Investigator,Fraud,None,£224.60
+69311894,09/06/2016,Gatekeeper,Subscription cancelled,None,£19.99
+69601122,09/06/2016,Investigator,Fraud,None,£8.20
+69668631,09/06/2016,Gatekeeper,Fraud,None,£21.84
+69813496,09/06/2016,Gatekeeper,Fraud,None,£40.98
+69869457,09/06/2016,Gatekeeper,Subscription cancelled,None,£19.99
+70259483,09/06/2016,Gatekeeper,Fraud,None,£57.93
+70331339,09/06/2016,Investigator,1st party fraud,None,£196.62
+70827646,09/06/2016,Gatekeeper,Fraud,None,£133.92
+70777317,09/06/2016,Gatekeeper,Fraud,None,£74.93
+70780510,09/06/2016,Gatekeeper,Fraud - Refunded,Outstanding,£90.93
+68207744,10/06/2016,Bypass,Subscription cancelled,Won,£19.99
+69163089,10/06/2016,Investigator,Subscription cancelled,None,£19.99
+69858689,10/06/2016,Bypass,1st party fraud,None,£19.99
+70218372,10/06/2016,Bypass,1st party fraud,None,£9.99
+68060475,10/06/2016,Gatekeeper,Fraud,None,£84.93
+68107384,10/06/2016,Gatekeeper,Fraud,None,£84.93
+68159888,10/06/2016,Gatekeeper,Fraud,None,£84.93
+68694944,10/06/2016,Investigator,Fraud,None,£43.98
+69428197,10/06/2016,Bypass,1st party fraud,None,£19.99
+69461708,10/06/2016,Bypass,1st party fraud,None,£19.99
+70145518,10/06/2016,Gatekeeper,Fraud,None,£47.97
+70345909,10/06/2016,Investigator,fraud,None,£38.98
+70835327,10/06/2016,Investigator,Fraud,None,£443.61
+70377029,11/06/2016,Investigator,Fraud,None,£219.98
+68257685,11/06/2016,Bypass,Subscription cancelled,None,£19.99
+67695146,11/06/2016,Investigator,Fraud,None,£49.97
+67525138,11/06/2016,Gatekeeper,Fraud,None,£98.93
+69600835,11/06/2016,Gatekeeper,Fraud,None,£70.98
+70083368,11/06/2016,Gatekeeper,Subscription cancelled,None,£19.99
+70633850,11/06/2016,Investigator,Fraud,None,£275.94
+71167402,11/06/2016,Investigator,Fraud,None,£48.94
+69533507,12/06/2016,Gatekeeper,Fraud,None,£273.30
+69578893,12/06/2016,Gatekeeper,Order issue - not refunded or replaced,Lost,£90.10
+69954351,12/06/2016,Bypass,Subscription,None,£19.99
+68647445,12/06/2016,Gatekeeper,Subscription,None,£19.99
+69248638,12/06/2016,Gatekeeper,Fraud,None,£49.94
+69599625,12/06/2016,Gatekeeper,Subscription,None,£19.99
+69996217,12/06/2016,Gatekeeper,Customer error,Won,£25.00
+70267538,12/06/2016,Investigator,Fraud,None,£36.94
+68883405,13/06/2016,Gatekeeper,Fraud,None,£25.05
+68230785,13/06/2016,Bypass,Subscription cancelled,None,£19.99
+69330856,13/06/2016,Gatekeeper,Subscription cancelled,None,£19.99
+70158880,13/06/2016,Gatekeeper,Customer Error,Lost,£39.25
+71176460,13/06/2016,Gatekeeper,Fraud,None,£84.93
+71443189,13/06/2016,Gatekeeper,Fraud,None,£13.43
+70559773,13/06/2016,Investigator,Fraud,None,£393.08
+69275414,14/06/2016,Bypass,Fraud,None,£32.99
+68664952,14/06/2016,Investigator,Order returned/ cancelled – not refunded,None,£41.99
+67611191,14/06/2016,Bypass,Subscription,None,£19.99
+67424637,14/06/2016,Gatekeeper,Customer Error,Outstanding,£62.82
+69155139,14/06/2016,Gatekeeper,Subscription cancelled,None,£19.99
+69190065,14/06/2016,Bypass,Fraud,None,£104.93
+69735480,14/06/2016,Investigator,Subscription,None,£22.45
+70270710,14/06/2016,Investigator,Fraud,None,£30.94
+70229258,14/06/2016,Investigator,Fraud,None,£30.94
+70613894,14/06/2016,Investigator,Customer Error,Lost,£34.78
+67361570,15/06/2016,Gatekeeper,Fraud - Refunded,Won,£6.22
+70460842,15/06/2016,Bypass,Fraud,None,£50.74
+70785678,15/06/2016,Investigator,Fraud,None,£215.00
+70784690,15/06/2016,Gatekeeper,Fraud,None,£113.99
+69043505,15/06/2016,Gatekeeper,Fraud - Refunded,None,£65.00
+69149834,15/06/2016,Gatekeeper,Fraud,None,£130.01
+70493316,15/06/2016,Gatekeeper,Fraud,None,£594.33
+70231751,15/06/2016,Gatekeeper,Fraud,None,£285.43
+70967913,15/06/2016,Gatekeeper,Fraud,Outstanding,£43.16
+67122200,15/06/2016,Bypass,Subscription,None,£19.99
+67122200,15/06/2016,Bypass,Subscription,None,£19.99
+67122200,15/06/2016,Bypass,Subscription,None,£19.99
+69949300,15/06/2016,Investigator,Fraud,None,£156.89
+70338998,15/06/2016,Bypass,Fraud,None,£13.99
+69349062,15/06/2016,Bypass,Subscription cancelled,Outstanding,£19.99
+68699826,15/06/2016,Bypass,Order returned/ cancelled – refunded,None,£34.99
+68525150,15/06/2016,Gatekeeper,1st party fraud,Outstanding,£26.61
+67252345,15/06/2016,Gatekeeper,1st party fraud,Outstanding,£135.94
+67472669,15/06/2016,Investigator,1st party fraud,Outstanding,£164.94
+71270281,15/06/2016,Investigator,Fraud,None,£48.94
+71205497,15/06/2016,Investigator,Fraud,None,£48.94
+70179151,15/06/2016,Investigator,Fraud,None,£137.22
+71017120,15/06/2016,Gatekeeper,Fraud,None,£10.34
+68951195,15/06/2016,Investigator,Fraud,None,£40.73
+67355555,16/06/2016,Gatekeeper,Customer Error,None,£118.93
+67541366,16/06/2016,Gatekeeper,Fraud,None,£23.52
+67587290,16/06/2016,Investigator,Fraud,None,£213.40
+67651145,16/06/2016,Investigator,Fraud,None,£34.74
+68168032,16/06/2016,Gatekeeper,Customer Error,None,£33.62
+68392870,16/06/2016,Gatekeeper,Fraud,None,£43.72
+68524518,16/06/2016,Investigator,Fraud,None,£12.28
+68630505,16/06/2016,Investigator,Fraud,None,£10.68
+68710224,16/06/2016,Gatekeeper,Fraud,None,£49.94
+68750050,16/06/2016,Gatekeeper,Customer Error,None,£30.27
+68808463,16/06/2016,Gatekeeper,Order returned/ cancelled – not refunded,None,£23.53
+69229216,16/06/2016,Gatekeeper,Fraud,None,£49.94
+69836256,16/06/2016,Gatekeeper,1st party fraud,None,£9.99
+68208966,16/06/2016,Investigator,Fraud,None,£148.26
+70146391,17/06/2016,Gatekeeper,Fraud,None,£46.99
+71188555,17/06/2016,Gatekeeper,Fraud,None,£119.99
+69517988,17/06/2016,Gatekeeper,Fraud,None,£322.95
+69570330,17/06/2016,Investigator,Fraud,None,£326.95
+69627279,17/06/2016,Investigator,Fraud,None,£385.95
+70158617,17/06/2016,Bypass,Fraud,None,£32.99
+70859408,17/06/2016,Bypass,Fraud,None,£30.00
+70860061,17/06/2016,Gatekeeper,Fraud,None,£67.99
+68341616,17/06/2016,Gatekeeper,Fraud,None,£20.98
+68662891,17/06/2016,Gatekeeper,Subscription,None,£19.99
+69441795,17/06/2016,Gatekeeper,Fraud,None,£20.98
+69924811,17/06/2016,Investigator,Fraud,None,£289.93
+70760924,17/06/2016,Investigator,Fraud,None,£25.98
+70065820,17/06/2016,Investigator,Fraud,None,£39.51
+69974151,17/06/2016,Investigator,Fraud,None,£39.51
+69907544,17/06/2016,Investigator,Fraud,None,£41.58
+69704672,17/06/2016,Investigator,Fraud,None,£39.51
+69806421,17/06/2016,Investigator,Fraud,None,£39.51
+69734091,20/06/2016,Investigator,Fraud,None,£35.99
+70130409,20/06/2016,Gatekeeper,Fraud,None,£297.17
+67335455,20/06/2016,Gatekeeper,1st party fraud,Lost,£129.94
+69500421,20/06/2016,Gatekeeper,Fraud,None,£26.96
+69668672,21/06/2016,Gatekeeper,fraud,None,£105.00
+70048606,21/06/2016,Gatekeeper,fraud,None,£90.95
+70357000,21/06/2016,Gatekeeper,fraud,None,£139.50
+71066889,21/06/2016,Gatekeeper,1st party fraud,None,£592.83
+69246362,21/06/2016,Gatekeeper,Fraud,None,£45.94
+69600546,21/06/2016,Gatekeeper,Fraud,None,£45.98
+70860744,21/06/2016,Gatekeeper,Fraud,None,£12.32
+71177546,21/06/2016,Gatekeeper,Fraud,None,£84.93
+69297212,21/06/2016,Investigator,Fraud,None,£345.63
+71424062,21/06/2016,Investigator,Fraud,None,£119.79
+69932871,22/06/2016,Gatekeeper,Ethoca - refunded,Outstanding,£66.99
+67776156,22/06/2016,Gatekeeper,Card re-hit,None,£159.96
+70714709,22/06/2016,Gatekeeper,Card re-hit,Outstanding,£81.35
+67498687,22/06/2016,Bypass,Subscription cancelled,Outstanding,£58.47
+68645972,22/06/2016,Bypass,Subscription cancelled,None,£19.99
+68623383,22/06/2016,Gatekeeper,Fraud,None,£20.98
+70880649,23/06/2016,Investigator,Fraud,None,£140.49
+71416059,23/06/2016,Gatekeeper,Fraud,None,£57.98
+71086694,23/06/2016,Gatekeeper,Fraud,None,£35.98
+71221725,23/06/2016,Gatekeeper,Fraud,None,£83.70
+68281271,24/06/2016,Bypass,1st party fraud,Lost,£35.90
+71060921,24/06/2016,Gatekeeper,Fraud,None,£41.94
+70348011,27/06/2016,Gatekeeper,fraud,None,£208.00
+68782457,27/06/2016,Gatekeeper,Fraud,None,£194.95
+69567806,27/06/2016,Bypass,Subscription cancelled,None,£19.99
+68107927,27/06/2016,Gatekeeper,Fraud - Refunded,None,£84.93
+68624895,27/06/2016,Investigator,Customer Error,Outstanding,£30.27
+68751242,27/06/2016,Gatekeeper,Fraud,None,£49.94
+69247084,27/06/2016,Gatekeeper,Fraud,None,£116.97
+71575890,27/06/2016,Gatekeeper,LIP - Untracked,Outstanding,£29.16
+71426738,28/06/2016,Bypass,Fraud,None,£22.50
+68215141,28/06/2016,Investigator,Fraud,None,£30.96
+68340258,28/06/2016,Gatekeeper,LIP - Untracked,None,£39.99
+69337356,28/06/2016,Gatekeeper,Fraud,None,£124.94
+71129846,28/06/2016,Investigator,Fraud,None,£8.98
+71248486,28/06/2016,Investigator,Fraud,None,£23.98
+68685775,29/06/2016,Gatekeeper,LIP - Untracked,None,£41.98
+68758595,29/06/2016,Investigator,Customer Error,Lost,£41.50
+70708680,29/06/2016,Gatekeeper,Customer Error,Outstanding,£23.55
+71196597,30/06/2016,Gatekeeper,LIP - Untracked,None,£39.48
+67361959,01/07/2016,Bypass,Subscription,Lost,£62.93
+68969743,04/07/2016,Gatekeeper,Customer Error,Outstanding,£30.27
+71402894,04/07/2016,Gatekeeper,Customer Error,Outstanding,£34.78
+70556133,06/07/2016,Gatekeeper,Fraud,None,£46.99
+70964809,07/07/2016,Bypass,LIP - Untracked,None,£18.81
+70631904,07/07/2016,Gatekeeper,1st Party Fraud,None,£47.70
+68905575,08/07/2016,Gatekeeper,Subscription,Lost,£19.99
+68905575,08/07/2016,Gatekeeper,Subscription,None,£19.99
+68663148,08/07/2016,Gatekeeper,Subscription,Lost,£19.99
+71003498,08/07/2016,Bypass,1st Party Fraud,None,£29.99
+68654612,08/07/2016,Investigator,Fraud,None,£54.59
+69923683,08/07/2016,Gatekeeper,1st Party Fraud,None,£19.99
+69750783,08/07/2016,Investigator,1st Party Fraud,None,£254.94
+68905575,11/07/2016,Gatekeeper,Subscription,Lost,£19.99
+71552744,11/07/2016,Gatekeeper,Fraud,None,£100.93
+69819279,11/07/2016,Investigator,Fraud,None,£254.94
+69706769,11/07/2016,Investigator,Fraud,None,£79.93
+70306763,11/07/2016,Investigator,Fraud,None,£18.98
+70475323,11/07/2016,Bypass,Fraud,None,£17.50
+71209423,11/07/2016,Gatekeeper,Fraud,None,£30.94
+71255003,11/07/2016,Bypass,LIP - Untracked,None,£17.50
+69954351,11/07/2016,Bypass,Subscription,None,£19.99
+70121502,11/07/2016,Gatekeeper,Subscription,None,£9.99
+69510034,12/07/2016,Gatekeeper,Subscription,None,£19.99
+69879148,12/07/2016,Gatekeeper,Subscription cancelled,None,£19.99
+71427345,12/07/2016,Gatekeeper,Subscription cancelled,None,£19.99
+70844030,13/07/2016,Gatekeeper,Fraud,None,£51.99
+69601462,13/07/2016,Bypass,Subscription,None,£22.45
+70100802,13/07/2016,Bypass,Fraud,None,£11.22
+69079935,13/07/2016,Gatekeeper,Fraud,None,£84.93
+69133295,13/07/2016,Gatekeeper,Fraud,None,£144.94
+69485733,13/07/2016,Gatekeeper,Subscription,Lost,£19.99
+71135655,13/07/2016,Bypass,1st Party Fraud,Outstanding,£30.85
+70490562,13/07/2016,Investigator,Fraud,None,£48.35
+69304859,13/07/2016,Gatekeeper,1st party fraud,None,£89.99
+70486630,13/07/2016,Bypass,Fraud,None,£384.95
+70430596,13/07/2016,Gatekeeper,Fraud,None,£383.95
+69010682,13/07/2016,Gatekeeper,Fraud,None,£25.98
+68905575,13/07/2016,Investigator,Subscription,None,£19.99
+70739921,13/07/2016,Investigator,Fraud,None,£313.46
+70298875,13/07/2016,Gatekeeper,Fraud,None,£157.82
+70676522,13/07/2016,Investigator,Fraud,None,£117.34
+70591329,13/07/2016,Investigator,Fraud,None,£48.35
+70611460,13/07/2016,Gatekeeper,Fraud,None,£268.69
+71390168,14/07/2016,Gatekeeper,Fraud,None,£385.95
+69251782,14/07/2016,Gatekeeper,Fraud,None,£23.98
+71501924,14/07/2016,Gatekeeper,Fraud,None,£100.93
+71066780,14/07/2016,Investigator,Fraud,None,£275.20
+69144383,14/07/2016,Gatekeeper,Unwanted - order not returned,Outstanding,£111.99
+68502572,14/07/2016,Gatekeeper,Order issue - not refunded or replaced,Outstanding,£23.52
+71197958,14/07/2016,Investigator,Card re-hit,Outstanding,£340.00
+69833108,15/07/2016,Gatekeeper,fraud,None,£111.00
+70802792,15/07/2016,Gatekeeper,fraud,None,£1.05
+70845847,15/07/2016,Gatekeeper,fraud,None,£1.06
+70897858,15/07/2016,Gatekeeper,fraud,None,£1.05
+70477338,15/07/2016,Gatekeeper,LIP - Untracked,None,£8.01
+69485733,18/07/2016,Gatekeeper,Subscription,None,£19.99
+71215987,18/07/2016,Gatekeeper,Subscription,None,£19.99
+71547298,19/07/2016,Gatekeeper,Fraud,None,£49.94
+68847107,19/07/2016,Bypass,Fraud,None,£26.10
+71495113,19/07/2016,Gatekeeper,Ethoca - not refunded,None,£448.95
+71563224,20/07/2016,Gatekeeper,Fraud,None,£481.95
+70900939,20/07/2016,Bypass,Subscription cancelled,None,£19.99
+70428719,20/07/2016,Investigator,Fraud,None,£42.72
+70069079,20/07/2016,Bypass,Subscription cancelled,None,£19.99
+70451788,20/07/2016,Investigator,Ethoca - not refunded,None,£213.59
+71467239,20/07/2016,Bypass,Fraud,None,£30.00
+68988204,20/07/2016,Gatekeeper,Subscription,Outstanding,£9.86
+69337312,20/07/2016,Gatekeeper,Fraud,None,£124.94
+69122008,20/07/2016,Gatekeeper,Fraud,None,£36.98
+68386693,20/07/2016,Gatekeeper,Fraud,None,£19.99
+69524374,21/07/2016,Gatekeeper,Fraud,None,£125.41
+70266604,21/07/2016,Gatekeeper,Fraud,None,£233.00
+70761667,21/07/2016,Gatekeeper,Fraud,None,£202.00
+71552349,21/07/2016,Gatekeeper,Fraud,None,£100.93
+71545650,25/07/2016,Investigator,Fraud,None,£139.47
+70888281,26/07/2016,Bypass,Subscription,Lost,£19.99
+70881729,26/07/2016,Gatekeeper,Subscription,Lost,£19.99
+69806937,26/07/2016,Bypass,Card re-hit,Lost,£37.99
+69263716,26/07/2016,Investigator,Fraud,None,£197.89
+70927023,27/07/2016,Investigator,Fraud,Lost,£394.94
+68321186,27/07/2016,Gatekeeper,Subscription cancelled,None,£64.36
+68883670,27/07/2016,Gatekeeper,Fraud - Refunded,Won,£74.93
+68838674,28/07/2016,Gatekeeper,Fraud,None,£74.93
+71106490,28/07/2016,Gatekeeper,Fraud,None,£434.95
+70365431,28/07/2016,Gatekeeper,Subscription,None,£19.99
+71496207,28/07/2016,Gatekeeper,1st party fraud,None,£422.05
+71363399,29/07/2016,Gatekeeper,LIP - Untracked,None,£15.02
+69601462,29/07/2016,Bypass,Subscription,None,£19.99
+70888281,29/07/2016,Bypass,Subscription,None,£19.99
+71583333,29/07/2016,Investigator,LIP - Untracked,None,£70.97
+70338996,29/07/2016,Gatekeeper,Order returned/ cancelled – not refunded,None,£264.94
+68647445,02/08/2016,Bypass,Subscription,None,£19.99
+71363399,02/08/2016,Gatekeeper,LIP - Untracked,None,£19.99
+68713404,02/08/2016,Gatekeeper,Fraud,None,£192.34
+68807465,02/08/2016,Gatekeeper,Fraud,None,£185.52
+69800815,02/08/2016,Gatekeeper,Fraud,None,£108.00
+68885070,03/08/2016,Gatekeeper,Fraud,None,£74.93
+71447284,03/08/2016,Gatekeeper,Subscription,Outstanding,£19.99
+68106716,04/08/2016,Gatekeeper,Fraud,None,£84.93
+67361570,04/08/2016,Gatekeeper,Fraud - Refunded,None,£6.22
+69470198,04/08/2016,Gatekeeper,Fraud,None,£35.99
+67390978,04/08/2016,Investigator,Fraud,None,£115.96
+70530603,04/08/2016,Gatekeeper,Order issue - not refunded or replaced,None,£31.13
+68516599,04/08/2016,Bypass,Customer error,None,£65.63
+69160929,05/08/2016,Gatekeeper,Subscription cancelled,Won,£19.99
+69160929,05/08/2016,Gatekeeper,Subscription cancelled,None,£19.99
+70896826,05/08/2016,Bypass,Subscription cancelled,None,£19.99
+68641295,05/08/2016,Bypass,Subscription,None,£9.99
+70975022,05/08/2016,Gatekeeper,Fraud,None,£124.95
+70936327,05/08/2016,Investigator,Fraud,None,£354.94
+69602760,05/08/2016,Gatekeeper,Fraud,None,£60.99
+71591904,08/08/2016,Investigator,Fraud,None,£166.51
+69359095,09/08/2016,Bypass,Subscription cancelled,None,£19.99
+67129539,09/08/2016,Bypass,Subscription,None,£19.99
+70896081,09/08/2016,Bypass,Subscription,None,£19.99
+70893490,09/08/2016,Gatekeeper,Fraud,None,£154.00
+70896826,09/08/2016,Gatekeeper,Subscription cancelled,None,£19.99
+71295601,09/08/2016,Bypass,Subscription,None,£19.99
+70563024,10/08/2016,Bypass,LIP - untracked,Lost,£169.99
+69602760,10/08/2016,Gatekeeper,Fraud,None,£60.99
+69119909,10/08/2016,Gatekeeper,Fraud,None,£166.99
+69825058,10/08/2016,Investigator,Fraud,None,£110.00
+70719964,11/08/2016,Gatekeeper,Fraud,Lost,£67.00
+70560723,11/08/2016,Bypass,Subscription,Lost,£22.40
+68641295,11/08/2016,Gatekeeper,Subscription,None,£9.99
+71000595,11/08/2016,Gatekeeper,Subscription,None,£19.99
+71011581,11/08/2016,Gatekeeper,Fraud,None,£242.17
+70918135,12/08/2016,Gatekeeper,Fraud,None,£208.50
+68318809,15/08/2016,Investigator,Fraud,None,£188.91
+69360664,16/08/2016,Bypass,Subscription,Lost,£19.99
+69226346,16/08/2016,Investigator,Subscription,None,£17.29
+69144383,17/08/2016,Bypass,LIP - untracked,Lost,£111.99
+71197958,17/08/2016,Investigator,Fraud,None,£340.00
+68380862,18/08/2016,Gatekeeper,Fraud,None,£58.47
+69314828,18/08/2016,Bypass,Subscription cancelled,None,£19.99
+69314828,18/08/2016,Bypass,1st party fraud,None,£19.99
+69314828,19/08/2016,Bypass,Subscription cancelled,None,£19.99
+70645347,22/08/2016,Bypass,Subscription,Outstanding,£22.40
+68937945,24/08/2016,Bypass,LIP - untracked,Won,£23.98
+69884084,30/08/2016,Bypass,Unwanted - order not returned,Outstanding,£58.47
+70629951,31/08/2016,Gatekeeper,Ethoca - not refunded,None,£85.00
+71230321,05/09/2016,Investigator,Fraud,None,£46.94
+70701260,06/09/2016,Bypass,Subscription,Lost,£19.99
+70398149,06/09/2016,Investigator,1st party fraud,None,£180.49
+71229506,06/09/2016,Investigator,Subscription cancelled,None,£17.60
+70978979,07/09/2016,Gatekeeper,Fraud,None,£142.28
+70701260,07/09/2016,Bypass,Subscription,Won,£19.99
+70696879,12/09/2016,Gatekeeper,Subscription cancelled,None,£19.99
+69555313,12/09/2016,Investigator,Fraud,None,£11.98
+71009815,14/09/2016,Investigator,Fraud,None,£49.44
+70874788,20/09/2016,Bypass,Subscription cancelled,None,£19.99
+70698592,20/09/2016,Gatekeeper,1st party fraud,Outstanding,£81.99
+70702449,20/09/2016,Gatekeeper,1st party fraud,Outstanding,£129.00
+69061380,22/09/2016,Gatekeeper,Subscription,Won,£22.17
+69644542,22/09/2016,Gatekeeper,Subscription,Lost,£21.32
+70745933,22/09/2016,Gatekeeper,1st party fraud,Outstanding,£54.99
+70697465,22/09/2016,Gatekeeper,Fraud,Outstanding,£74.99
+68801915,25/09/2016,Gatekeeper,Subscription,None,£19.99
+69929357,25/09/2016,Gatekeeper,Subscription,None,£19.99
+69061380,29/09/2016,Gatekeeper,Subscription cancelled,None,£22.17
+70698701,04/10/2016,Gatekeeper,Order issue - not refunded or replaced,None,£135.98
+70904347,06/10/2016,Bypass,Subscription,Won,£19.99
+69487831,07/10/2016,Gatekeeper,Subscription,Won,£19.99
+69487831,07/10/2016,Gatekeeper,Subscription,Won,£19.99
+70891567,07/10/2016,Gatekeeper,Subscription,Won,£19.99
+68663148,11/10/2016,Gatekeeper,Subscription,Lost,£19.99
+71581097,12/10/2016,Investigator,Fraud - Not Refunded,None,£59.58
+71537633,12/10/2016,Investigator,Fraud - Not Refunded,None,£90.68
+69487831,12/10/2016,Gatekeeper,Subscription cancelled,None,£19.99
+68352623,13/10/2016,Gatekeeper,Subscription cancelled,Won,£9.99
+69958059,17/10/2016,Investigator,LIP - untracked,Lost,£100.95
+69179210,17/10/2016,Investigator,LIP - Tracked,None,£133.63
+70936341,17/10/2016,Investigator,Order issue - refunded or replaced,None,£110.56
+68352623,17/10/2016,Gatekeeper,Order issue - refunded or replaced,Won,£9.99
+67622666,18/10/2016,Investigator,Order issue - refunded or replaced,Lost,£620.70
+68406081,19/10/2016,Gatekeeper,Subscription cancelled,Lost,£63.93
+70891567,19/10/2016,Gatekeeper,Subscription,Won,£19.99
+70528558,20/10/2016,Gatekeeper,Subscription cancelled,None,£9.99
+70378332,01/11/2016,Gatekeeper,Subscription cancelled,None,£19.99
+70528558,01/11/2016,Gatekeeper,Subscription cancelled,None,£9.99
+70528558,01/11/2016,Gatekeeper,Subscription cancelled,None,£9.99
+70378332,01/11/2016,Gatekeeper,Subscription cancelled,None,£19.99
+70051685,01/11/2016,Gatekeeper,LIP - untracked,None,£34.48
+71306941,10/11/2016,Gatekeeper,Subscription,Lost,£21.43
+71306941,10/11/2016,Gatekeeper,Subscription,Lost,£22.32
+70378332,10/11/2016,Bypass,Subscription cancelled,None,£19.99
+71269754,11/11/2016,Gatekeeper,Subscription,Won,£19.99
+68369311,16/11/2016,Gatekeeper,Subscription,None,£58.47
+70121465,06/12/2016,Gatekeeper,Subscription,Won,19.99
+70121465,06/12/2016,Gatekeeper,Subscription,Outstanding,19.99
+70121465,06/12/2016,Gatekeeper,Subscription,Outstanding,19.99

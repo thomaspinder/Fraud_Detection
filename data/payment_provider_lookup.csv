@@ -1,0 +1,8 @@
+Provider_Key,Provider_Name
+-1,Unknown
+1,COMMIDEA
+2,PAYPAL
+3,ADYEN
+4,ALIPAY
+5,CHASE
+6,KLARNA

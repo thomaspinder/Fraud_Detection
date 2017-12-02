@@ -1,0 +1,88 @@
+Payment_Method_Key,Payment_Method_Description,Payment_Method_Category
+-1,UNKNOWN,UNKNOWN
+1,Adyen,Adyen
+2,Amex,Credit Card
+3,Diners,Credit Card
+4,Electron,Credit Card
+5,Error,Credit Card
+6,Maestro,Credit Card
+7,MasterCard,Credit Card
+8,Mastercard Debit,Credit Card
+9,PayPal,Paypal
+10,Visa,Credit Card
+11,Visa Debit,Credit Card
+12,Solo,Credit Card
+13,Visa CPC,Credit Card
+36,BML,Credit Card
+37,CHECK,Credit Card
+38,DISCOVER,Credit Card
+39,EPASS,Credit Card
+40,GC,Credit Card
+41,MC,Credit Card
+42,MO,Credit Card
+43,UNIONPAYCR,Credit Card
+44,ALIPAY,Credit Card
+45,ADYEN multibanco,Adyen
+46,CHASE qiwiwallet,Credit Card
+47,COMMIDEA cup,Credit Card
+48,ADYEN sepadirectdebit,Adyen
+49,COMMIDEA,Credit Card
+50,ALIPAY tenpay,Credit Card
+51,ALIPAY jcb,Credit Card
+52,ADYEN bcmc,Adyen
+53,ALIPAY discover,Credit Card
+55,CHASE diners,Credit Card
+56,ALIPAY unionpay,Credit Card
+57,CHASE interac,Credit Card
+58,ALIPAY cup,Credit Card
+59,CHASE discover,Credit Card
+60,ALIPAY giropay,Credit Card
+61,ADYEN cup,Adyen
+62,ADYEN card,Adyen
+63,ADYEN discover,Adyen
+64,COMMIDEA directEbanking,Credit Card
+65,ADYEN directEbanking,Adyen
+66,COMMIDEA sepadirectdebit,Credit Card
+67,CHASE,Credit Card
+68,ALIPAY directEbanking,Credit Card
+69,ALIPAY bcmc,Credit Card
+70,ALIPAY ideal,Credit Card
+71,ADYEN unionpay,Adyen
+72,ALIPAY multibanco,Credit Card
+73,ADYEN ideal,Adyen
+74,ADYEN giropay,Adyen
+75,KLARNA,Credit Card
+77,COMMIDEA bcmc,Credit Card
+78,ADYEN ebanking_FI,Adyen
+79,ADYEN jcb,Adyen
+80,COMMIDEA ebanking_FI,Credit Card
+81,COMMIDEA discover,Credit Card
+82,ADYEN trustly,Adyen
+83,COMMIDEA trustly,Credit Card
+84,ADYEN qiwiwallet,Adyen
+85,ADYEN diners,Adyen
+86,COMMIDEA multibanco,Credit Card
+87,COMMIDEA diners,Credit Card
+88,KLARNA trustly,Credit Card
+89,COMMIDEA giropay,Credit Card
+90,KLARNA giropay,Credit Card
+91,KLARNA directEbanking,Credit Card
+92,KLARNA sepadirectdebit,Credit Card
+93,KLARNA ideal,Credit Card
+94,COMMIDEA interac,Credit Card
+95,COMMIDEA unionpay,Credit Card
+96,COMMIDEA ideal,Credit Card
+97,ADYEN interac,Adyen
+98,KLARNA bcmc,Credit Card
+99,KLARNA ebanking_FI,Credit Card
+100,CHASE unionpay,Credit Card
+101,CHASE jcb,Credit Card
+102,COMMIDEA trustpay,Credit Card
+103,CHASE cup,Credit Card
+104,WORLDPAY,Credit Card
+105,WORLDPAY discover,Credit Card
+106,WORLDPAY directEbanking,Credit Card
+107,WORLDPAY giropay,Credit Card
+108,WORLDPAY diners,Credit Card
+109,WORLDPAY bcmc,Credit Card
+110,KLARNA card,Credit Card

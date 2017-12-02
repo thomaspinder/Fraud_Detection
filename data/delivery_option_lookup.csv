@@ -1,0 +1,23 @@
+Delivery_Option_Key,Name
+-1,Unknown
+1,Standard
+2,Next Day
+3,Saturday
+4,First Class
+5,International Standard
+6,International Tracked
+7,Premium Express Delivery
+8,Saver Delivery
+9,Lipton Standard
+10,Lipton Next Day
+11,Sunday
+12,Air Express Delivery
+13,USA Next Day
+14,USA 2 Day
+15,EU Overnight
+16,Worldwide Express
+17,Fedex
+18,OSM
+19,dpd
+20,correos
+21,gls

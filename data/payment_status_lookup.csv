@@ -1,0 +1,7 @@
+Payment_Transaction_Status_Key,Payment_Transaction_Status
+1,UNKNOWN
+2,PENDING
+3,SUCCESS
+4,FAILED
+5,RETRYOK
+6,MANUAL

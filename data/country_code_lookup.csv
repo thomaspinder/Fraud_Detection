@@ -1,0 +1,249 @@
+Country_Code,Country_Name,Continental_Region,Continent
+--,UNKNOWN,UNKNOWN,UNKNOWN
+AD,Andorra,Southern Europe,Europe
+AE,United Arab Emirates,Western Asia,Asia
+AF,Afghanistan,Southern Asia,Asia
+AG,Antigua and Barbuda,Caribbean,Latin America
+AI,Anguilla,Caribbean,Latin America
+AL,Albania,Southern Europe,Europe
+AM,Armenia,Western Asia,Asia
+AN,Netherlands Antilles,Caribbean,Latin America
+AO,Angola,Middle Africa,Africa
+AQ,Antarctica,Antarctica,Antarctica
+AR,Argentina,South America,South America
+AS,American Samoa,Polynesia,Oceania
+AT,Austria,Western Europe,Europe
+AU,Australia,Australia,Australia
+AW,Aruba,Caribbean,Latin America
+AX,Åland Islands,Northern Europe,Europe
+AZ,Azerbaijan,Western Asia,Asia
+BA,Bosnia and Herzegovina,Southern Europe,Europe
+BB,Barbados,Caribbean,Latin America
+BD,Bangladesh,Southern Asia,Asia
+BE,Belgium,Western Europe,Europe
+BF,Burkina Faso,Western Africa,Africa
+BG,Bulgaria,Eastern Europe,Europe
+BH,Bahrain,Western Asia,Asia
+BI,Burundi,Eastern Africa,Africa
+BJ,Benin,Western Africa,Africa
+BL,Saint Barthélemy,Caribbean,Latin America
+BM,Bermuda,North America,North America
+BN,Brunei Darussalam,South-Eastern Asia,Asia
+BO,Bolivia,South America,South America
+BR,Brazil,South America,South America
+BS,Bahamas,Caribbean,Latin America
+BT,Bhutan,Southern Asia,Asia
+BV,Bouvet Island,Antarctica,Antarctica
+BW,Botswana,Southern Africa,Africa
+BY,Belarus,Eastern Europe,Europe
+BZ,Belize,Central America,Latin America
+CA,Canada,North America,North America
+CC,Cocos (Keeling) Islands,Central America,Latin America
+CD,Congo. the Democratic Republic of the,Middle Africa,Africa
+CF,Central African Republic,Middle Africa,Africa
+CG,Congo,Middle Africa,Africa
+CH,Switzerland,Western Europe,Europe
+CI,Côte d'Ivoire,Western Africa,Africa
+CK,Cook Islands,Polynesia,Oceania
+CL,Chile,South America,South America
+CM,Cameroon,Middle Africa,Africa
+CN,China,Eastern Asia,Asia
+CO,Colombia,South America,South America
+CR,Costa Rica,Central America,Latin America
+CU,Cuba,Caribbean,Latin America
+CV,Cape Verde,Western Africa,Africa
+CX,Christmas Island,Australia,Australia
+CY,Cyprus,Western Asia,Asia
+CZ,Czech Republic,Eastern Europe,Europe
+DE,Germany,Western Europe,Europe
+DJ,Djibouti,Eastern Africa,Africa
+DK,Denmark,Northern Europe,Europe
+DM,Dominica,Caribbean,Latin America
+DO,Dominican Republic,Caribbean,Latin America
+DZ,Algeria,Northern Africa,Africa
+EC,Ecuador,South America,South America
+EE,Estonia,Northern Europe,Europe
+EG,Egypt,Northern Africa,Africa
+EH,Western Sahara,Northern Africa,Africa
+ER,Eritrea,Eastern Africa,Africa
+ES,Spain,Southern Europe,Europe
+ET,Ethiopia,Eastern Africa,Africa
+FI,Finland,Northern Europe,Europe
+FJ,Fiji,Melanesia,Oceania
+FK,Falkland Islands,South America,South America
+FM,Micronesia. Federated States of,Micronesia,Oceania
+FO,Faroe Islands,Northern Europe,Europe
+FR,France,Western Europe,Europe
+GA,Gabon,Middle Africa,Africa
+GB,United Kingdom,Northern Europe,Europe
+GD,Grenada,Caribbean,Latin America
+GE,Georgia,Western Asia,Asia
+GF,French Guiana,South America,South America
+GG,Guernsey,Northern Europe,Europe
+GH,Ghana,Western Africa,Africa
+GI,Gibraltar,Southern Europe,Europe
+GL,Greenland,North America,North America
+GM,Gambia,Western Africa,Africa
+GN,Guinea,Western Africa,Africa
+GP,Guadeloupe,Caribbean,Latin America
+GQ,Equatorial Guinea,Middle Africa,Africa
+GR,Greece,Southern Europe,Europe
+GS,South Georgia and the South Sandwich Islands,Antarctica,Antarctica
+GT,Guatemala,Central America,Latin America
+GU,Guam,Micronesia,Oceania
+GW,Guinea-Bissau,Western Africa,Africa
+GY,Guyana,South America,South America
+HK,Hong Kong,Eastern Asia,Asia
+HM,Heard Island and McDonald Islands,Antarctica,Antarctica
+HN,Honduras,Central America,Latin America
+HR,Croatia,Southern Europe,Europe
+HT,Haiti,Caribbean,Latin America
+HU,Hungary,Eastern Europe,Europe
+ID,Indonesia,South-Eastern Asia,Asia
+IE,Ireland,Northern Europe,Europe
+IL,Israel,Western Asia,Asia
+IM,Isle of Man,Northern Europe,Europe
+IN,India,Southern Asia,Asia
+IO,British Indian Ocean Territory,Southern Asia,Asia
+IQ,Iraq,Western Asia,Asia
+IR,Iran. Islamic Republic of,Southern Asia,Asia
+IS,Iceland,Northern Europe,Europe
+IT,Italy,Southern Europe,Europe
+JE,Jersey,Northern Europe,Europe
+JM,Jamaica,Caribbean,Latin America
+JO,Jordan,Western Asia,Asia
+JP,Japan,Eastern Asia,Asia
+KE,Kenya,Eastern Africa,Africa
+KG,Kyrgyzstan,Central Asia,Asia
+KH,Cambodia,South-Eastern Asia,Asia
+KI,Kiribati,Micronesia,Oceania
+KM,Comoros,Eastern Africa,Africa
+KN,Saint Kitts and Nevis,Caribbean,Latin America
+KP,Korea. Democratic People's Republic of,Eastern Asia,Asia
+KR,Korea. Republic of,Eastern Asia,Asia
+KW,Kuwait,Western Asia,Asia
+KY,Cayman Islands,Caribbean,Latin America
+KZ,Kazakhstan,Central Asia,Asia
+LA,Lao People's Democratic Republic,South-Eastern Asia,Asia
+LB,Lebanon,Western Asia,Asia
+LC,Saint Lucia,Caribbean,Latin America
+LI,Lichtenstein,Western Europe,Europe
+LK,Sri Lanka,Southern Asia,Asia
+LR,Liberia,Western Africa,Africa
+LS,Lesotho,Southern Africa,Africa
+LT,Lithuania,Northern Europe,Europe
+LU,Luxembourg,Western Europe,Europe
+LV,Latvia,Northern Europe,Europe
+LY,Libyan Arab Jamahiriya,Northern Africa,Africa
+MA,Morocco,Northern Africa,Africa
+MC,Monaco,Western Europe,Europe
+MD,Moldova. Republic of,Eastern Europe,Europe
+ME,Montenegro,Southern Europe,Europe
+MF,Saint Martin (French part),Caribbean,Latin America
+MG,Madagascar,Eastern Africa,Africa
+MH,Marshall Islands,Micronesia,Oceania
+MK,Macedonia. the former Yugoslav Republic of,Southern Europe,Europe
+ML,Mali,Western Africa,Africa
+MM,Myanmar,South-Eastern Asia,Asia
+MN,Mongolia,Eastern Asia,Asia
+MO,Macao,Eastern Asia,Asia
+MP,Northern Mariana Islands,Micronesia,Oceania
+MQ,Martinique,Caribbean,Latin America
+MR,Mauritania,Western Africa,Africa
+MS,Montserrat,Caribbean,Latin America
+MT,Malta,Southern Europe,Europe
+MU,Mauritius,Eastern Africa,Africa
+MV,Maldives,Southern Asia,Asia
+MW,Malawi,Eastern Africa,Africa
+MX,Mexico,Central America,Latin America
+MY,Malaysia,South-Eastern Asia,Asia
+MZ,Mozambique,Eastern Africa,Africa
+NA,Namibia,Southern Africa,Africa
+NC,New Caledonia,Melanesia,Oceania
+NE,Niger,Western Africa,Africa
+NF,Norfolk Island,Australia,Australia
+NG,Nigeria,Western Africa,Africa
+NI,Nicaragua,Central America,Latin America
+NL,Netherlands,Western Europe,Europe
+NO,Norway,Northern Europe,Europe
+NP,Nepal,Southern Asia,Asia
+NR,Nauru,Micronesia,Oceania
+NU,Niue,Polynesia,Oceania
+NZ,New Zealand,Australia,Australia
+OM,Oman,Western Asia,Asia
+PA,Panama,Central America,Latin America
+PE,Peru,South America,South America
+PF,French Polynesia,Polynesia,Oceania
+PG,Papua New Guinea,Melanesia,Oceania
+PH,Philippines,South-Eastern Asia,Asia
+PK,Pakistan,Southern Asia,Asia
+PL,Poland,Eastern Europe,Europe
+PM,Saint Pierre and Miquelon,North America,North America
+PN,Pitcairn,Polynesia,Oceania
+PR,Puerto Rico,Caribbean,Latin America
+PS,Palestine,Western Asia,Asia
+PT,Portugal,Southern Europe,Europe
+PW,Palau,Micronesia,Oceania
+PY,Paraguay,South America,South America
+QA,Qatar,Western Asia,Asia
+RE,Réunion,Eastern Africa,Africa
+RO,Romania,Eastern Europe,Europe
+RS,Serbia,Southern Europe,Europe
+RU,Russian Federation,Eurasia,Eurasia
+RW,Rwanda,Eastern Africa,Africa
+SA,Saudi Arabia,Western Asia,Asia
+SB,Solomon Islands,Melanesia,Oceania
+SC,Seychelles,Eastern Africa,Africa
+SD,Sudan,Northern Africa,Africa
+SE,Sweden,Northern Europe,Europe
+SG,Singapore,South-Eastern Asia,Asia
+SH,Saint Helena,Western Africa,Africa
+SI,Slovenia,Southern Europe,Europe
+SJ,Svalbard and Jan Mayen,Northern Europe,Europe
+SK,Slovakia,Eastern Europe,Europe
+SL,Sierra Leone,Western Africa,Africa
+SM,San Marino,Southern Europe,Europe
+SN,Senegal,Western Africa,Africa
+SO,Somalia,Eastern Africa,Africa
+SR,Suriname,South America,South America
+ST,Sao Tome and Principe,Middle Africa,Africa
+SV,El Salvador,Central America,Latin America
+SY,Syrian Arab Republic,Western Asia,Asia
+SZ,Swaziland,Southern Africa,Africa
+TC,Turks and Caicos Islands,Caribbean,Latin America
+TD,Chad,Middle Africa,Africa
+TF,French Southern Territories,Antarctica,Antarctica
+TG,Togo,Western Africa,Africa
+TH,Thailand,South-Eastern Asia,Asia
+TJ,Tajikistan,Central Asia,Asia
+TK,Tokelau,Polynesia,Oceania
+TL,Timor-Leste,South-Eastern Asia,Asia
+TM,Turkmenistan,Central Asia,Asia
+TN,Tunisia,Northern Africa,Africa
+TO,Tonga,Polynesia,Oceania
+TR,Turkey,Western Asia,Asia
+TT,Trinidad and Tobago,Caribbean,Latin America
+TV,Tuvalu,Polynesia,Oceania
+TW,Taiwan. Province of China,Eastern Asia,Asia
+TZ,Tanzania. United Republic of,Eastern Africa,Africa
+UA,Ukraine,Eastern Europe,Europe
+UG,Uganda,Eastern Africa,Africa
+UM,United States Minor Outlying Islands,North America,North America
+US,United States,North America,North America
+UY,Uruguay,South America,South America
+UZ,Uzbekistan,Central Asia,Asia
+VA,Holy See (Vatican City State),Southern Europe,Europe
+VC,Saint Vincent and the Grenadines,Caribbean,Latin America
+VE,Venezuela,South America,South America
+VG,Virgin Islands. British,Caribbean,Latin America
+VI,Virgin Islands. U.S.,Caribbean,Latin America
+VN,Viet Nam,South-Eastern Asia,Asia
+VU,Vanuatu,Melanesia,Oceania
+WF,Wallis and Futuna,Polynesia,Oceania
+WS,Samoa,Polynesia,Oceania
+YE,Yemen,Western Asia,Asia
+YT,Mayotte,Eastern Africa,Africa
+ZA,South Africa,Southern Africa,Africa
+ZM,Zambia,Eastern Africa,Africa
+ZW,Zimbabwe,Eastern Africa,Africa
+UK,United Kingdom,Northern Europe,Europe
