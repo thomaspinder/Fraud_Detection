@@ -29,11 +29,20 @@ del_features <- data.frame(Name = as.character(unique(trans$Name)),
                            occupation = c(rep("unknown", 5), "working", "unknown", "working", "unknown"))
 
 trans <- trans %>% 
-  left_join(del_features, by = "Name")
-
+  left_join(del_features, by = "Name") 
 trans_del <- trans %>% 
   group_by(Name) %>% 
   summarise(n = n())
+
+trans <- trans %>% 
+  left_join(customers[c("Account_Key", "Site_Key")], by = "Account_Key")
+trans$Site_Key <-as.character(trans$Site_Key)
+trans$Site_Key_len <- nchar(trans$Site_Key)
+
+trans <- trans %>% 
+  filter(Site_Key_len <5) %>% 
+  mutate(Site_Key = as.factor(Site_Key)) %>% 
+  select(-Site_Key_len)
 
 # Reliable customers
 customers <- trans %>% 
@@ -41,7 +50,6 @@ customers <- trans %>%
   mutate(count = n()) %>% 
   group_by(count) %>% 
   summarise(n = n()) 
-
 
 customers <- trans %>% 
   group_by(Account_Key) %>% 
@@ -140,6 +148,9 @@ set.seed(123)
 to_model3$fraud_status <- as.factor(to_model3$fraud_status)
 summary(to_model3$fraud_status)
 
+# What sites do we have
+unique(to_model3)
+
 # Split into test/train
 set.seed(123)
 index <- createDataPartition(to_model3$fraud_status, p = 0.7, list = FALSE)
@@ -170,11 +181,14 @@ ctrl <- trainControl(method = "repeatedcv",
                      sampling = "smote")
 
 set.seed(123)
+nmin <- sum(train_data$fraud_status == 1)
 model_rf_under <- train(fraud_status ~ .,
                         data = train_data,
                         method = "rf",
                         preProcess = c("scale", "center"),
-                        trControl = ctrl)
+                        trControl = ctrl,
+                        strata = train_data$fraud_status,
+                        sampsize = rep(nmin, 2))
 
 final_under <- data.frame(actual = test_data$fraud_status, 
                           predict(model_rf_under, newdata = test_data, 
@@ -187,8 +201,6 @@ cm_under
 plot(rf_model, ylim = c(0, 0.99))
 legend('topright', colnames(rf_model$err.rate), col=1:3, fill=1:3)
 
-# Plot ROC
-roc.curve(to_mod$fraud_status, rf_model$predicted)
 # Variable Importance
 var_importance <- importance(rf_model)
 varImportance <- data.frame(Variables = row.names(var_importance), 
@@ -203,3 +215,5 @@ ggplot(rankImportance, aes(x = reorder(Variables, Importance),
   labs(x = 'Variables') +
   coord_flip() + 
   theme_minimal()
+plot(cm_under$table)
+cm_under$table
