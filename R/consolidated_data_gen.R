@@ -102,10 +102,10 @@ trans_noNa <- trans %>%
 # Columns with NAs
 na.count <- which(sapply(trans_noNa, function(y) sum(length(which(is.na(y)))))>0)
 
-library(VIM)
-aggr_plot <- aggr(trans_noNa, col = c("blue", "red"), numbers = TRUE, sortVars = TRUE, 
-                  labels=names(trans_noNa), cex.axis = 7, gap = 3, 
-                  ylab = c("Histogram of Missing Data", "Pattern"))
+#library(VIM)
+#aggr_plot <- aggr(trans_noNa, col = c("blue", "red"), numbers = TRUE, sortVars = TRUE, 
+#                  labels=names(trans_noNa), cex.axis = 7, gap = 3, 
+#                  ylab = c("Histogram of Missing Data", "Pattern"))
 
 # Are nas fraudulent
 na.count <- which(sapply(trans_noNa[trans_noNa$fraud_status==1], function(y) sum(length(which(is.na(y)))))>0)
@@ -121,19 +121,21 @@ to_model <- with(to_model, data.frame(model.matrix(~Category_Level_2 -1), to_mod
 
 # Run Random Forest
 #setwd("/home/tpin3694/Documents/university/MSc/fundamental")
-x <- to_model[, sapply(to_model, class) != "character"]
-y <- to_model[, sapply(to_model, class) != "factor"]
-
 #1=domestic, 2=international
 to_model$destination_int <- as.integer(to_model$destination)
 # 1=priority, 2=slow
 to_model$priority_int <- as.integer(to_model$priority)
 # 1=unknown, 2=working
 to_model$occupation_int <- as.integer(to_model$occupation)
+#1=fine, 2=questionable 3 =insufficient 4=adequate
+to_model$status<- as.integer(as.factor(to_model$status))
 #1=fine, 2=mismatch
-to_model$customer_status_int <- as.integer(as.factor(to_model$status))
+to_model$ship_status <- as.integer(as.factor(to_model$ship_status))
 to_model$Site_Key <- as.factor(to_model$Site_Key)
 
+x <- to_model[, sapply(to_model, class) != "character"]
+y <- to_model[, sapply(to_model, class) != "factor"]
+names(x)
 # Filter out unecessary columns
 to_model2 <- to_model %>% 
   select_(.dots = names(x))
@@ -153,9 +155,10 @@ for (i in 1:length(site_ks)){
   print(as.character(site_ks[i]))
   data <- to_model3 %>% 
     filter(Site_Key == site_ks[i])
-  write.csv(data, row.names = F , file = paste0("stratified/dataset_", as.character(site_ks[i]), ".csv"))
+  write.csv(data, row.names = F , file = paste0("dataset_", as.character(site_ks[i]), ".csv"))
 }
 setwd("~")
 fraud_data <- to_model3 %>% 
   filter(fraud_status == 1)
-write.csv(fraud_data, file = "Documents/university/MSc/fundamental/fraud/data/stratified/fraud_data.csv")
+write.csv(fraud_data, row.names = F,
+          file = "Documents/university/MSc/fundamental/fraud/data/stratified/fraud_data.csv")
