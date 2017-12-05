@@ -6,8 +6,8 @@ library(dplyr)
 library(ggplot2)
 library(lubridate)
 library(ROSE)
-
-#setwd("Documents/university/MSc/fundamental/fraud/data/")
+setwd("~")
+setwd("Documents/university/MSc/fundamental/fraud/data/")
 trans <- fread("MAIN_transaction_data.csv")
 fraud_trans <- fread("MAIN_chargeback_data.csv")
 customers <- read.csv("MAIN_customer_data.csv")
@@ -76,7 +76,7 @@ cancelled_items <- payment_hists %>%
 
 
 bill_ship_match <- cancelled_items %>% 
-  mutate(status = ifelse(Postcode_Billing_Address != Postcode_Shipping_Address, "mismatch", "fine"))
+  mutate(ship_status = ifelse(Postcode_Billing_Address != Postcode_Shipping_Address, "mismatch", "fine"))
 
 trans <- bill_ship_match
 
@@ -114,14 +114,13 @@ sum(is.na(trans_noNa[trans_noNa$fraud_status==1]))
 # Remove NAs as they're non-fraudulent
 to_model <- trans_noNa %>% 
   na.omit()
-
+names(trans_noNa)
 # One-Hot Encode Variables
 # Returns 208 Features
 to_model <- with(to_model, data.frame(model.matrix(~Category_Level_2 -1), to_model))
 
 # Run Random Forest
 #setwd("/home/tpin3694/Documents/university/MSc/fundamental")
-
 x <- to_model[, sapply(to_model, class) != "character"]
 y <- to_model[, sapply(to_model, class) != "factor"]
 
@@ -133,12 +132,29 @@ to_model$priority_int <- as.integer(to_model$priority)
 to_model$occupation_int <- as.integer(to_model$occupation)
 #1=fine, 2=mismatch
 to_model$customer_status_int <- as.integer(as.factor(to_model$status))
+to_model$Site_Key <- as.factor(to_model$Site_Key)
 
 # Filter out unecessary columns
 to_model2 <- to_model %>% 
   select_(.dots = names(x))
+
 to_model3 <- to_model2 %>% 
-  select_(.dots = intersect(names(to_model2), names(y)))
+  select_(.dots = union(intersect(names(to_model2), names(y)), names(trans_noNa)[26]))
+
+to_model3 <- to_model3 %>% 
+  select(-c(Order_Date_Key, Cancelled_Date_Key))
+
+setwd("~")
+setwd("Documents/university/MSc/fundamental/fraud/data/stratified/")
+
+site_ks <- unique(to_model3$Site_Key)
+
+for (i in 1:length(site_ks)){
+  print(as.character(site_ks[i]))
+  data <- to_model3 %>% 
+    filter(Site_Key == site_ks[i])
+  write.csv(data, file = paste0("stratified/dataset_", as.character(site_ks[i]), ".csv"))
+}
 
 #write.csv(to_model3, "hot_pot_encoded.csv", row.names = FALSE)
 library(randomForest)
