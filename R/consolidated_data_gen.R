@@ -155,3 +155,7 @@ for (i in 1:length(site_ks)){
     filter(Site_Key == site_ks[i])
   write.csv(data, row.names = F , file = paste0("stratified/dataset_", as.character(site_ks[i]), ".csv"))
 }
+setwd("~")
+fraud_data <- to_model3 %>% 
+  filter(fraud_status == 1)
+write.csv(fraud_data, file = "Documents/university/MSc/fundamental/fraud/data/stratified/fraud_data.csv")
