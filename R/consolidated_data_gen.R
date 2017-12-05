@@ -1,9 +1,11 @@
+library(caret)
 library(data.table)
 library(randomForest)
 library(mice)
 library(dplyr)
 library(ggplot2)
 library(lubridate)
+library(ROSE)
 
 #setwd("Documents/university/MSc/fundamental/fraud/data/")
 trans <- fread("MAIN_transaction_data.csv")
@@ -124,7 +126,7 @@ to_model$occupation_int <- as.integer(to_model$occupation)
 #1=fine, 2=mismatch
 to_model$customer_status_int <- as.integer(as.factor(to_model$status))
 
-t <- as.integer(y$destination)
+# Filter out unecessary columns
 to_model2 <- to_model %>% 
   select_(.dots = names(x))
 to_model3 <- to_model2 %>% 
@@ -135,14 +137,58 @@ library(randomForest)
 
 # scale down dataset
 set.seed(123)
-rand_samp <- sample(x = 1:nrow(to_model3), 0.1*nrow(to_model3))
-to_mod <- to_model3[rand_samp,]
-rf_model <- with(to_mod, randomForest(factor(fraud_status) ~ . , data = to_mod))
+to_model3$fraud_status <- as.factor(to_model3$fraud_status)
+summary(to_model3$fraud_status)
 
-# Plot the model
-plot(rf_model, ylim = c(0, 0.01))
+# Split into test/train
+set.seed(123)
+index <- createDataPartition(to_model3$fraud_status, p = 0.7, list = FALSE)
+train_data <- to_model3[index, ]
+test_data <- to_model3[-index, ]
+
+# Random Remove 50% of fraud
+row_indexes <- which(train_data$fraud_status == 0)
+sub_data <- sample(x = row_indexes, size = nrow(train_data)*0.5)
+# Setup Random Forest
+model_rf <- train(fraud_status ~ ., 
+                  data = train_data[-sub_data, ],
+                  preProcess = c("scale", "center"),
+                  trControl = trainControl(method = "repeatedcv",
+                                           number = 10,
+                                           repeats = 10,
+                                           verboseIter = TRUE))
+final <- data.frame(actual = test_data$fraud_status, 
+                    predict(model_rf, newdata = test_data, type = "prob"))
+# final$predict <- ifelse(final$benign > 0.5, "benign", "malignant")
+# cm_original <- confusionMatrix(final$predict, test_data$classes)
+
+# Under Sample now
+ctrl <- trainControl(method = "repeatedcv", 
+                     number = 2, 
+                     repeats = 2,#10 
+                     verboseIter = FALSE,
+                     sampling = "smote")
+
+set.seed(123)
+model_rf_under <- train(fraud_status ~ .,
+                        data = train_data,
+                        method = "rf",
+                        preProcess = c("scale", "center"),
+                        trControl = ctrl)
+
+final_under <- data.frame(actual = test_data$fraud_status, 
+                          predict(model_rf_under, newdata = test_data, 
+                                  type = "prob"))
+
+final_under$predict <- ifelse(final_under$X0 < 0.5, 0, 1)
+cm_under <- confusionMatrix(final_under$predict, test_data$fraud_status)
+cm_under
+# Plot Model
+plot(rf_model, ylim = c(0, 0.99))
 legend('topright', colnames(rf_model$err.rate), col=1:3, fill=1:3)
 
+# Plot ROC
+roc.curve(to_mod$fraud_status, rf_model$predicted)
 # Variable Importance
 var_importance <- importance(rf_model)
 varImportance <- data.frame(Variables = row.names(var_importance), 
