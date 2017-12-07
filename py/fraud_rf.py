@@ -146,7 +146,7 @@ for file in files:
         model_recall = model_scores['test_recall_macro']
         model_precision = model_scores['test_precision_macro']
     else:
-        logging.warning("No NaNs present in Dataset" + str(file).strip(file_dir))
+        logging.warning("No Fraud present in Dataset" + str(file).strip(file_dir))
 
 
     #     # prediction_results = random_forest_predict(rf_model, test_x)
