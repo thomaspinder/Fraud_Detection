@@ -5,6 +5,7 @@ library(corrplot)
 library(DMwR)
 library(unbalanced)
 library(ROCR)
+library(pROC)
 library(boot)
 
 setwd("C:/Users/Luke/Documents/University/Lancaster/Data Fundamentals/thgfd/data/stratified")
@@ -88,3 +89,11 @@ pred <- predict(model_fit, newdata = select(test, -fraud_status))
 conf <- confusionMatrix(data = pred, test$fraud_status)
 conf
 conf$byClass
+
+
+
+# prob <- predict(model, test, type = "response")
+# test$prob <- prob
+# g <- roc(fraud_status ~ prob, data = test)
+# plot(g)
+
