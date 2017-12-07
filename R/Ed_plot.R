@@ -123,7 +123,7 @@ write.csv(fraud, file = 'plot1.csv', row.names = F)
 
 # Active_months
 p1 <- ggplot(fraud) +
-  geom_histogram(aes(x=Active_months),binwidth=1,breaks=seq(0, 15, 1))
+  geom_histogram(aes(x=Active_months),binwidth=1,breaks=seq(0, 15, 1),fill="tan2")
 p1
 ggsave(p1, file="fraud vs.Active_months.png")
 
@@ -136,17 +136,19 @@ data2$Country_Name <- as.factor(data2$Country_Name)
 
 names(data2)
 p2 <- ggplot(data2,aes(data2$Country_Name,data2$fraud_count)) + 
-  geom_bar(stat = 'identity',xlab="Country_Name") +
- labs(xlab = "Country_Name", ylab="fraud_count",title = "fraud count per Country code")+ coord_flip() 
+  geom_bar(stat = 'identity',xlab="Country_Name",fill="steelblue1") +
+ labs(xlab = "Country_Name", ylab="fraud_count",title = "fraud count per Country")+ coord_flip() 
 p2
 ggsave(p2, file="fraud count per Country code.png")
 
 # fraud count per Category_Level_2
 data3 <- group_by(fraud, Category_Level_2)     
 data3 <- summarise(data3, fraud_count=n()) 
-p3 <- ggplot(data3,aes(Category_Level_2,fraud_count),beside=T) + geom_bar(stat = 'identity') + 
-  labs(title = "fraud count per Category_Level_2")+ coord_flip() 
-p3+geom_area(position='fill')+ scale_fill_brewer(palette=c("Set1"))
+p3 <- ggplot(data3,aes(Category_Level_2,fraud_count),beside=T) + 
+  geom_bar(stat = 'identity',aes(fill=factor(Category_Level_2))) + 
+  coord_flip() 
+p3+geom_area(position='fill')
+#+ scale_fill_brewer(palette=c("Set1"))
 p3
 ggsave(p3, file="fraud count per Category_Level_2.png")
 
