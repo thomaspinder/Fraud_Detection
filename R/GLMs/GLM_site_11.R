@@ -69,6 +69,8 @@ summary(model)
 model <- step(model)
 summary(model)
 
+model <- update(model, .~. -Category_Level_2Clothing-Category_Level_2Footwear)
+summary(model)
 
 model_predict <- predict(model, test, type = "response")
 ROC_predict <- prediction(model_predict, test$fraud_status)
@@ -82,7 +84,7 @@ area_under_curve@y.values[[1]]
 # TEN FOLD CROSS VALIDATION
 ctrl <- trainControl(method = "repeatedcv", number = 10, savePredictions = TRUE)
 model_fit <- caret::train(fraud_status ~ customer_status + ship_status + destination_int + 
-                     Product_Charge_Price + num_valid ,
+                     Product_Charge_Price + num_valid,
                    data = train, method = "glm", family = binomial(link ="logit"),
                    trControl = ctrl, tuneLength = 10)
 pred <- predict(model_fit, newdata = select(test, -fraud_status))
@@ -91,9 +93,4 @@ conf
 conf$byClass
 
 
-
-# prob <- predict(model, test, type = "response")
-# test$prob <- prob
-# g <- roc(fraud_status ~ prob, data = test)
-# plot(g)
 
