@@ -80,6 +80,3 @@ pred <- predict(model_fit, newdata = select(test, -fraud_status))
 conf <- confusionMatrix(data = pred, test$fraud_status)
 conf
 conf$byClass
-
-
-

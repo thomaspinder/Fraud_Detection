@@ -1,16 +1,26 @@
 rm(list = ls())
 library(caret)
 library(dplyr)
-library(corrplot)
 library(DMwR)
 library(unbalanced)
 library(ROCR)
-library(boot)
+library(corrplot)
 
 setwd("C:/Users/Luke/Documents/University/Lancaster/Data Fundamentals/thgfd/data/stratified")
 glm_data <- read.csv("dataset_120.csv")
-glm_data$fraud_status <- as.factor((glm_data$fraud_status))
+#glm_data$fraud_status <- as.factor((glm_data$fraud_status))
 glm_data <- select(glm_data, -Site_Key, -Ordered_Product_Key)
+
+
+#Removing zero variance variables
+glm_data <- Filter(function(x) var(x)!=0, glm_data)
+
+
+glm_data <- select(glm_data, -(1:16), -Campaign_Key, -Ordered_Qty, -Cancelled_Qty, -prop,
+                   -canc_prop, -count)
+
+# After building GLM
+glm_data <- select(glm_data, -Medium_Key)
 
 
 set.seed(123)
@@ -20,36 +30,21 @@ glm_data <- rename(glm_data, fraud_status = "Tomek$Y")
 
 
 
-temp <- select(glm_data, -prop, -canc_prop, -Product_Charge_Price, -num_valid, 
-               -count, -Order_Sequence_No, -Ordered_Qty, -Cancelled_Qty)
+
+#Test for colinearity:
+X <- cor(glm_data)
+corrplot(X, method="circle", type = "lower")
+
+
+
+temp <- select(glm_data, -Product_Charge_Price, -num_valid,  -Order_Sequence_No)
 temp[,(1:ncol(temp))] <- lapply(temp[,(1:ncol(temp))],as.factor)
 temp <- temp[, sapply(temp, nlevels) > 1]
-nums <- select(glm_data, prop, canc_prop, Product_Charge_Price, num_valid, 
-               count, Order_Sequence_No, Ordered_Qty, Cancelled_Qty)
+nums <- select(glm_data, Product_Charge_Price, num_valid,  Order_Sequence_No)
 glm_data <- cbind(temp, nums)
 
 
 
-glm_data <- select(glm_data, -Campaign_Key, -Delivery_Option_Type_Key, -Payment_Method_Key,
-                   -Medium_Key, -pay_key_num, -Payment_Provider_Key, 
-                   -Order_Payment_Status_Key, -occupation_int,
-                   -canc_prop, -Ordered_Qty, -priority_int, -Cancelled_Qty, -prop,
-                   -Order_Sequence_No, -count)
-
-for (i in 1:16){
-  print(colnames(glm_data[i]))
-  print(table(glm_data[,i]))
-}
-
-
-glm_data <- select(glm_data, -Category_Level_2Accessories, -Category_Level_2Bags,
-                   -Category_Level_2Body.Care, -Category_Level_2Books,
-                   -Category_Level_2Footwear, -Category_Level_2Gifts, -Category_Level_2Homeware,
-                   -Category_Level_2NULL, -Category_Level_2Sports,
-                   -Category_Level_2Sports.Nutrition, -Category_Level_2Tech,
-                   -Category_Level_2Toys, -Category_Level_2Games, -Category_Level_2Merchandise,
-                   -Category_Level_2Clothing, -Category_Level_2DVD.and.Blu.Ray, -num_valid,
-                   -ship_status, -destination_int)
 
 new_data <- glm_data
 
@@ -77,24 +72,24 @@ summary(model)
 
 
 
-model_predict <- predict(model, test, type = "response")
-ROC_predict <- prediction(model_predict, test$fraud_status)
-ROC_performance <- performance(ROC_predict, "tpr", "fpr")
-plot(ROC_performance, colorize = TRUE, text.adj = c(-0.2,1.7), lwd = 5)
-area_under_curve <- performance(ROC_predict, measure = "auc")
-area_under_curve@y.values[[1]]
-
-
- 
-# TEN FOLD CROSS VALIDATION
-ctrl <- trainControl(method = "repeatedcv", number = 10, savePredictions = TRUE)
-model_fit <- caret::train(fraud_status ~ customer_status + Product_Charge_Price,
-                   data = train, method = "glm", family = binomial(link ="logit"),
-                   trControl = ctrl, tuneLength = 10)
-pred <- predict(model_fit, newdata = test)
-conf <- confusionMatrix(data = pred, test$fraud_status)
-conf
-conf$byClass
+# model_predict <- predict(model, test, type = "response")
+# ROC_predict <- prediction(model_predict, test$fraud_status)
+# ROC_performance <- performance(ROC_predict, "tpr", "fpr")
+# plot(ROC_performance, colorize = TRUE, text.adj = c(-0.2,1.7), lwd = 5)
+# area_under_curve <- performance(ROC_predict, measure = "auc")
+# area_under_curve@y.values[[1]]
+# 
+# 
+#  
+# # TEN FOLD CROSS VALIDATION
+# ctrl <- trainControl(method = "repeatedcv", number = 10, savePredictions = TRUE)
+# model_fit <- caret::train(fraud_status ~ customer_status + Product_Charge_Price,
+#                    data = train, method = "glm", family = binomial(link ="logit"),
+#                    trControl = ctrl, tuneLength = 10)
+# pred <- predict(model_fit, newdata = test)
+# conf <- confusionMatrix(data = pred, test$fraud_status)
+# conf
+# conf$byClass
 
 
 
