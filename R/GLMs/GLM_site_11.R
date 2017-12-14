@@ -5,8 +5,6 @@ library(corrplot)
 library(DMwR)
 library(unbalanced)
 library(ROCR)
-library(pROC)
-library(boot)
 
 setwd("C:/Users/Luke/Documents/University/Lancaster/Data Fundamentals/thgfd/data/stratified")
 glm_data <- read.csv("dataset_11.csv")
