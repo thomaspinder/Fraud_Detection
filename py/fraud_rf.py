@@ -149,7 +149,7 @@ for file in files:
         logging.warning("No Fraud present in Dataset" + str(file).strip(file_dir))
 
 
-    #     # prediction_results = random_forest_predict(rf_model, test_x)
+        prediction_results = random_forest_predict(rf_model, test_x)
     #     # preds = test_y[prediction_results]
     #     recogniser = RandomForestClassifier(tree)
     #     score = cross_val_score(recogniser, train_x.astype(int), train_y.astype(int))

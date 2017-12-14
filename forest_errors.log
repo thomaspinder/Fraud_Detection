@@ -67,3 +67,14 @@
 2017-12-07 07:16:33,420 102 fraudulent transactions present in Dataset_153.
 2017-12-07 07:17:15,892 0 NaNs in Dataset_120.
 2017-12-07 07:17:15,892 10 fraudulent transactions present in Dataset_120.
+2017-12-12 21:02:12,054 No Fraud present in Dataset_119.
+2017-12-12 21:02:14,217 0 NaNs in Dataset_121.
+2017-12-12 21:02:14,217 797 fraudulent transactions present in Dataset_121.
+2017-12-12 21:09:47,414 0 NaNs in Dataset_11.
+2017-12-12 21:09:47,416 146 fraudulent transactions present in Dataset_11.
+2017-12-12 21:09:52,026 0 NaNs in Dataset_15.
+2017-12-12 21:09:52,026 166 fraudulent transactions present in Dataset_15.
+2017-12-12 21:10:40,361 0 NaNs in Dataset_153.
+2017-12-12 21:10:40,362 102 fraudulent transactions present in Dataset_153.
+2017-12-12 21:11:11,685 0 NaNs in Dataset_120.
+2017-12-12 21:11:11,685 10 fraudulent transactions present in Dataset_120.
